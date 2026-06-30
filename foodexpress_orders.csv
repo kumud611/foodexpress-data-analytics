@@ -1,0 +1,521 @@
+order_id,order_date,order_time,time_slot,customer_id,customer_name,city,restaurant_id,restaurant_name,cuisine_type,items_ordered,order_value,discount_pct,discount_applied,final_amount,payment_method,distance_km,delivery_partner_id,delivery_time_mins,order_status,cancellation_reason,customer_rating
+FE1001,30-11-2025,10:47,Late Night,CUST035,Yash Gupta,Delhi,REST009,Noodle Bar,Chinese,5,722.61,0,0,722.61,Debit Card,7.9,DP022,25,Delivered,,4.4
+FE1002,07-01-2026,23:31,Dinner,CUST044,Sai Chopra,Mumbai,REST021,Paradise Biryani,Biryani,3,266.14,0,0,266.14,Debit Card,5.8,DP018,24,Delivered,,3.8
+FE1003,17-05-2026,11:40,Dinner,CUST001,Sneha Gupta,Delhi,REST011,Dragon Wok,Chinese,3,532.9,15,79.94,452.96,Credit Card,7.3,DP028,39,Delivered,,3.1
+FE1004,20-11-2025,11:34,Evening Snacks,CUST003,Ayaan Singh,Delhi,REST004,South Spice,South Indian,1,277.88,0,0,277.88,Credit Card,2.5,DP009,16,Delivered,,4.6
+FE1005,23-05-2026,08:57,Breakfast,CUST079,Rohan Iyer,Hyderabad,REST012,Sushi Spot,Japanese,3,601.86,25,150.47,451.39,Debit Card,8.6,DP023,31,Delivered,,4.9
+FE1006,08-04-2026,11:59,Evening Snacks,CUST144,Raj Bose,Pune,REST014,Quick Bites,Fast Food,2,388.1,0,0,388.1,UPI,10.3,DP027,,Cancelled,Customer changed mind,
+FE1007,25-05-2026,14:17,Dinner,CUST086,Pooja Rao,Delhi,REST014,Quick Bites,Fast Food,2,740.36,0,0,740.36,UPI,11,DP031,42,Delivered,,3.3
+FE1008,29-01-2026,16:52,Dinner,CUST008,Aditya Nair,Kolkata,REST015,KFC Junction,Fast Food,2,314.07,25,78.52,235.55,Wallet,3.1,DP022,,Cancelled,Long delivery time,
+FE1009,29-01-2026,23:25,Late Night,CUST018,Arjun Nair,Hyderabad,REST009,Noodle Bar,Chinese,6,1980.54,0,0,1980.54,UPI,1.1,DP017,12,Delivered,,3.1
+FE1010,10-11-2025,10:38,Lunch,CUST147,Vivaan Verma,Chennai,REST009,Noodle Bar,Chinese,4,1117.61,15,167.64,949.97,UPI,4.5,DP039,17,Delivered,,4.3
+FE1011,28-03-2026,13:16,Late Night,CUST030,Neha Nair,Mumbai,REST013,Burger Barn,Fast Food,1,430.69,20,86.14,344.55,Cash on Delivery,6.9,DP035,36,Delivered,,4.8
+FE1012,02-02-2026,20:04,Breakfast,CUST083,Arjun Das,Pune,REST007,Pizza Mania,Italian,6,1567.6,20,313.52,1254.08,UPI,8.6,DP008,24,Delivered,,5
+FE1013,19-01-2026,20:20,Lunch,CUST077,Priya Sharma,Delhi,REST017,Green Leaf Cafe,Healthy,4,1601.45,20,320.29,1281.16,Debit Card,2.3,DP027,27,Delivered,,4.4
+FE1014,11-05-2026,12:39,Dinner,CUST098,Reyansh Nair,Mumbai,REST022,Chaat Street,Street Food,5,1126.04,0,0,1126.04,Cash on Delivery,10.6,DP020,53,Delivered,,4.4
+FE1015,21-05-2026,17:29,Evening Snacks,CUST054,Reyansh Bose,Bangalore,REST014,Quick Bites,Fast Food,4,1309.99,20,262,1047.99,UPI,6.8,DP011,20,Delivered,,4.9
+FE1016,12-03-2026,17:05,Lunch,CUST022,Aadhya Das,Kolkata,REST010,Wok This Way,Chinese,2,783.69,0,0,783.69,Credit Card,10.2,DP010,34,Delivered,,4.7
+FE1017,02-03-2026,09:29,Lunch,CUST012,Ayaan Chopra,Delhi,REST008,Bella Italia,Italian,4,1656.67,10,165.67,1491,Wallet,9.2,DP025,,Cancelled,Payment failed,
+FE1018,17-04-2026,07:57,Lunch,CUST063,Aditya Verma,Chennai,REST005,Dosa Corner,South Indian,1,263.6,15,39.54,224.06,Cash on Delivery,10.2,DP045,49,Delivered,,3.7
+FE1019,23-03-2026,14:58,Evening Snacks,CUST119,Vihaan Malhotra,Delhi,REST002,Tandoor Express,North Indian,1,267.09,15,40.06,227.03,Cash on Delivery,6.2,DP034,,Cancelled,Address issue,
+FE1020,06-04-2026,23:27,Dinner,CUST082,Tanvi Nair,Mumbai,REST015,KFC Junction,Fast Food,5,1784.68,10,178.47,1606.21,Credit Card,9.5,DP031,35,Delivered,,4
+FE1021,13-04-2026,15:49,Lunch,CUST067,Pooja Patel,Kolkata,REST008,Bella Italia,Italian,5,1723.15,0,0,1723.15,Credit Card,4,DP005,29,Delayed,,2
+FE1022,21-11-2025,11:09,Lunch,CUST082,Tanvi Nair,Kolkata,REST018,Sweet Tooth Bakery,Bakery,2,594.82,10,59.48,535.34,Credit Card,9.1,DP005,48,Delivered,,4.2
+FE1023,19-03-2026,21:26,Lunch,CUST105,Neha Singh,Mumbai,REST011,Dragon Wok,Chinese,1,209.63,20,41.93,167.7,Wallet,5.4,DP038,48,Delivered,,4.2
+FE1024,06-02-2026,22:00,Lunch,CUST006,Neha Malhotra,Kolkata,REST019,Mughal Mahal,North Indian,3,766.57,15,114.99,651.58,Debit Card,10.8,DP027,32,Delivered,,4.8
+FE1025,27-12-2025,22:14,Dinner,CUST140,Sai Kapoor,Delhi,REST020,Biryani House,Biryani,3,903.78,20,180.76,723.02,Debit Card,5.3,DP043,20,Delivered,,3.5
+FE1026,13-12-2025,21:58,Dinner,CUST104,Saanvi Sharma,Mumbai,REST024,Brew & Bite,Cafe,2,806.86,15,121.03,685.83,Debit Card,11.4,DP038,38,Delivered,,3.1
+FE1027,22-11-2025,20:08,Lunch,CUST008,Aditya Nair,Hyderabad,REST001,Spice Villa,North Indian,4,567.52,10,56.75,510.77,Debit Card,5.2,DP014,28,Delivered,,3.7
+FE1028,14-05-2026,19:17,Dinner,CUST015,Kavya Iyer,Kolkata,REST011,Dragon Wok,Chinese,4,947.99,0,0,947.99,UPI,6.3,DP035,28,Delivered,,4.4
+FE1029,16-04-2026,09:49,Lunch,CUST049,Ayaan Verma,Bangalore,REST008,Bella Italia,Italian,6,661.02,15,99.15,561.87,UPI,11.9,DP013,,Cancelled,Customer changed mind,
+FE1030,03-12-2025,22:42,Dinner,CUST040,Amit Mehta,Kolkata,REST008,Bella Italia,Italian,1,433.91,0,0,433.91,UPI,6.2,DP017,,Cancelled,Long delivery time,
+FE1031,11-05-2026,10:49,Dinner,CUST021,Kiara Gupta,Chennai,REST020,Biryani House,Biryani,2,403.07,15,60.46,342.61,Debit Card,1.1,DP020,12,Delivered,,4.4
+FE1032,10-02-2026,13:04,Lunch,CUST157,Meera Singh,Mumbai,REST013,Burger Barn,Fast Food,5,2451.28,25,612.82,1838.46,Credit Card,3.6,DP045,18,Delivered,,3.4
+FE1033,03-04-2026,10:50,Lunch,CUST058,Sunil Mehta,Pune,REST022,Chaat Street,Street Food,5,474.14,0,0,474.14,UPI,5.8,DP024,34,Delivered,,4.9
+FE1034,27-01-2026,07:54,Dinner,CUST130,Sai Mehta,Hyderabad,REST021,Paradise Biryani,Biryani,4,1111.72,25,277.93,833.79,UPI,12,DP041,48,Delivered,,3.6
+FE1035,10-12-2025,20:11,Evening Snacks,CUST118,Reyansh Gupta,Kolkata,REST023,Cafe Mocha,Cafe,6,2469.65,25,617.41,1852.24,Cash on Delivery,4,DP035,18,Delivered,,4.2
+FE1036,20-02-2026,15:20,Dinner,CUST124,Vivaan Kapoor,Hyderabad,REST015,KFC Junction,Fast Food,2,226.07,15,33.91,192.16,UPI,6.1,DP030,41,Delivered,,3.5
+FE1037,06-02-2026,17:01,Late Night,CUST157,Meera Singh,Kolkata,REST022,Chaat Street,Street Food,4,858.77,0,0,858.77,Wallet,3.3,DP017,27,Delivered,,4.5
+FE1038,29-04-2026,15:35,Dinner,CUST072,Amit Gupta,Kolkata,REST020,Biryani House,Biryani,1,405.65,10,40.56,365.09,UPI,1.8,DP027,18,Delivered,,3.9
+FE1039,26-04-2026,22:41,Dinner,CUST143,Diya Malhotra,Mumbai,REST008,Bella Italia,Italian,6,1944.83,0,0,1944.83,Wallet,1,DP019,24,Delivered,,3.6
+FE1040,02-01-2026,16:42,Late Night,CUST104,Saanvi Sharma,Hyderabad,REST023,Cafe Mocha,Cafe,5,1325.67,20,265.13,1060.54,UPI,7,DP028,33,Delivered,,4.5
+FE1041,30-01-2026,21:17,Dinner,CUST141,Aarav Kapoor,Pune,REST011,Dragon Wok,Chinese,3,556.74,0,0,556.74,UPI,9.2,DP021,42,Delivered,,4.6
+FE1042,18-12-2025,13:13,Late Night,CUST138,Reyansh Kapoor,Chennai,REST023,Cafe Mocha,Cafe,6,1786.6,15,267.99,1518.61,Credit Card,7.7,DP034,38,Delivered,,4.6
+FE1043,20-12-2025,16:14,Dinner,CUST040,Amit Mehta,Pune,REST004,South Spice,South Indian,3,472.43,0,0,472.43,Cash on Delivery,9.1,DP009,46,Delivered,,3.7
+FE1044,22-03-2026,16:44,Breakfast,CUST012,Ayaan Chopra,Hyderabad,REST002,Tandoor Express,North Indian,2,931.68,15,139.75,791.93,Credit Card,6.5,DP001,29,Delivered,,4.7
+FE1045,03-03-2026,21:21,Breakfast,CUST040,Amit Mehta,Mumbai,REST016,Healthy Bowl,Healthy,2,191.01,25,47.75,143.26,Cash on Delivery,10.9,DP008,29,Delivered,,4.2
+FE1046,06-03-2026,09:36,Lunch,CUST017,Saanvi Mehta,Pune,REST013,Burger Barn,Fast Food,6,2124.25,0,0,2124.25,Debit Card,2.5,DP037,12,Delivered,,4.2
+FE1047,01-12-2025,20:38,Dinner,CUST022,Aadhya Das,Bangalore,REST008,Bella Italia,Italian,5,1762.74,15,264.41,1498.33,Debit Card,6.9,DP029,50,Delayed,,2.1
+FE1048,26-03-2026,08:39,Lunch,CUST110,Meera Verma,Bangalore,REST010,Wok This Way,Chinese,6,919.65,0,0,919.65,Cash on Delivery,3.2,DP014,19,Delivered,,3
+FE1049,11-12-2025,14:11,Late Night,CUST008,Aditya Nair,Mumbai,REST003,Punjab Grill House,North Indian,5,508.94,15,76.34,432.6,Cash on Delivery,5.6,DP045,22,Delivered,,5
+FE1050,09-11-2025,14:18,Lunch,CUST121,Myra Chopra,Mumbai,REST010,Wok This Way,Chinese,6,1453.13,0,0,1453.13,Credit Card,6.1,DP044,37,Delivered,,5
+FE1051,31-03-2026,13:27,Dinner,CUST068,Kiara Kapoor,Kolkata,REST021,Paradise Biryani,Biryani,1,318.59,25,79.65,238.94,Credit Card,2.5,DP018,12,Delivered,,5
+FE1052,16-11-2025,12:50,Dinner,CUST037,Priya Das,Delhi,REST003,Punjab Grill House,North Indian,3,1266.72,10,126.67,1140.05,UPI,7.5,DP019,31,Delivered,,5
+FE1053,26-04-2026,16:44,Evening Snacks,CUST032,Vivaan Singh,Bangalore,REST015,KFC Junction,Fast Food,4,876.17,15,131.43,744.74,UPI,6.6,DP006,15,Delivered,,3.3
+FE1054,08-05-2026,17:38,Breakfast,CUST011,Raj Malhotra,Hyderabad,REST014,Quick Bites,Fast Food,3,233.39,0,0,233.39,UPI,12.1,DP037,,Cancelled,Address issue,
+FE1055,28-03-2026,08:48,Lunch,CUST173,Meera Patel,Hyderabad,REST009,Noodle Bar,Chinese,2,644.85,0,0,644.85,UPI,6,DP018,48,Delivered,,4.2
+FE1056,12-04-2026,22:05,Dinner,CUST150,Neha Bose,Kolkata,REST014,Quick Bites,Fast Food,4,994.17,25,248.54,745.63,UPI,4.6,DP007,23,Delivered,,5
+FE1057,14-02-2026,22:18,Evening Snacks,CUST042,Pooja Iyer,Kolkata,REST011,Dragon Wok,Chinese,6,1924.48,0,0,1924.48,Wallet,7.2,DP030,,Cancelled,Customer changed mind,
+FE1058,30-11-2025,19:55,Breakfast,CUST065,Arjun Iyer,Mumbai,REST011,Dragon Wok,Chinese,5,425.23,0,0,425.23,UPI,7.1,DP027,28,Delivered,,4.3
+FE1059,01-02-2026,22:40,Breakfast,CUST049,Ayaan Verma,Chennai,REST017,Green Leaf Cafe,Healthy,4,373.72,10,37.37,336.35,Cash on Delivery,7.2,DP019,28,Delivered,,4
+FE1060,02-12-2025,07:40,Dinner,CUST165,Amit Joshi,Hyderabad,REST016,Healthy Bowl,Healthy,5,1094.75,15,164.21,930.54,Debit Card,4.4,DP001,20,Delivered,,4.8
+FE1061,28-12-2025,10:29,Dinner,CUST105,Neha Singh,Pune,REST003,Punjab Grill House,North Indian,1,465.6,15,69.84,395.76,Wallet,6.6,DP019,17,Delivered,,3.3
+FE1062,04-03-2026,22:15,Late Night,CUST070,Rohan Mehta,Delhi,REST014,Quick Bites,Fast Food,4,1242.18,15,186.33,1055.85,Cash on Delivery,3,DP039,34,Delivered,,3.9
+FE1063,10-01-2026,20:21,Late Night,CUST035,Yash Gupta,Mumbai,REST003,Punjab Grill House,North Indian,5,1218.48,15,182.77,1035.71,Credit Card,4.1,DP020,,Cancelled,Address issue,
+FE1064,09-12-2025,21:34,Breakfast,CUST169,Pooja Gupta,Bangalore,REST016,Healthy Bowl,Healthy,4,955.37,10,95.54,859.83,Wallet,9.7,DP025,46,Delivered,,4.4
+FE1065,28-04-2026,14:36,Dinner,CUST083,Arjun Das,Kolkata,REST007,Pizza Mania,Italian,4,909.35,20,181.87,727.48,Debit Card,5.6,DP021,27,Delivered,,3.5
+FE1066,27-05-2026,19:24,Dinner,CUST122,Yash Verma,Hyderabad,REST023,Cafe Mocha,Cafe,6,2954.59,0,0,2954.59,Cash on Delivery,6.6,DP003,21,Delivered,,4.2
+FE1067,24-01-2026,10:55,Dinner,CUST129,Arjun Malhotra,Mumbai,REST019,Mughal Mahal,North Indian,4,529.44,25,132.36,397.08,Credit Card,6.1,DP010,,Cancelled,Payment failed,
+FE1068,20-11-2025,22:50,Lunch,CUST168,Aarav Chopra,Delhi,REST005,Dosa Corner,South Indian,3,796.42,25,199.1,597.32,UPI,5.5,DP006,33,Delivered,,5
+FE1069,17-03-2026,19:20,Dinner,CUST071,Karan Sharma,Mumbai,REST022,Chaat Street,Street Food,6,3097.64,0,0,3097.64,UPI,6.5,DP035,35,Delivered,,4.8
+FE1070,31-12-2025,16:14,Late Night,CUST067,Pooja Patel,Mumbai,REST003,Punjab Grill House,North Indian,6,736.03,0,0,736.03,UPI,2,DP041,50,Delayed,,1.7
+FE1071,08-11-2025,08:20,Dinner,CUST178,Pooja Sharma,Kolkata,REST010,Wok This Way,Chinese,1,216.98,15,32.55,184.43,UPI,5.8,DP016,25,Delivered,,4.4
+FE1072,24-04-2026,12:10,Late Night,CUST105,Neha Singh,Bangalore,REST019,Mughal Mahal,North Indian,2,250.51,0,0,250.51,UPI,5.3,DP044,40,Delivered,,4.2
+FE1073,07-12-2025,14:29,Lunch,CUST128,Reyansh Chopra,Mumbai,REST019,Mughal Mahal,North Indian,6,1239.62,0,0,1239.62,UPI,8.6,DP030,34,Delivered,,4.6
+FE1074,11-12-2025,09:28,Evening Snacks,CUST157,Meera Singh,Kolkata,REST018,Sweet Tooth Bakery,Bakery,3,1048.41,10,104.84,943.57,UPI,12.1,DP045,,Cancelled,Long delivery time,
+FE1075,07-02-2026,22:06,Late Night,CUST058,Sunil Mehta,Delhi,REST007,Pizza Mania,Italian,2,565.82,20,113.16,452.66,UPI,7.5,DP045,52,Delayed,,3.5
+FE1076,03-11-2025,08:58,Dinner,CUST102,Vihaan Singh,Mumbai,REST009,Noodle Bar,Chinese,5,1892.34,15,283.85,1608.49,Wallet,11.4,DP015,51,Delivered,,5
+FE1077,12-04-2026,13:39,Dinner,CUST091,Ayaan Patel,Bangalore,REST008,Bella Italia,Italian,3,1411.96,20,282.39,1129.57,Credit Card,9.8,DP044,,Cancelled,Restaurant out of stock,
+FE1078,15-04-2026,08:19,Lunch,CUST025,Sunil Chopra,Mumbai,REST021,Paradise Biryani,Biryani,4,400.35,0,0,400.35,Wallet,9.4,DP006,37,Delivered,,4.9
+FE1079,15-02-2026,12:12,Lunch,CUST015,Kavya Iyer,Delhi,REST024,Brew & Bite,Cafe,2,819.22,0,0,819.22,Credit Card,5.1,DP033,36,Delivered,,2.9
+FE1080,04-03-2026,16:47,Late Night,CUST043,Karan Singh,Kolkata,REST009,Noodle Bar,Chinese,3,408.76,25,102.19,306.57,Debit Card,1.7,DP015,12,Delivered,,4.5
+FE1081,22-04-2026,19:54,Lunch,CUST157,Meera Singh,Pune,REST024,Brew & Bite,Cafe,5,1116.22,15,167.43,948.79,Wallet,5.4,DP017,34,Delivered,,5
+FE1082,03-02-2026,15:37,Dinner,CUST032,Vivaan Singh,Kolkata,REST015,KFC Junction,Fast Food,4,1910.01,10,191,1719.01,UPI,2.1,DP015,19,Delivered,,4
+FE1083,24-03-2026,17:58,Lunch,CUST007,Vivaan Sharma,Kolkata,REST020,Biryani House,Biryani,5,1021.99,0,0,1021.99,Credit Card,8.2,DP030,,Cancelled,Restaurant closed,
+FE1084,30-11-2025,11:02,Evening Snacks,CUST167,Nikhil Patel,Chennai,REST014,Quick Bites,Fast Food,1,281.62,15,42.24,239.38,Credit Card,2.2,DP016,19,Delivered,,4.2
+FE1085,25-02-2026,18:42,Late Night,CUST035,Yash Gupta,Pune,REST013,Burger Barn,Fast Food,6,3082.67,10,308.27,2774.4,Cash on Delivery,5.7,DP010,29,Delivered,,3.5
+FE1086,06-03-2026,20:17,Dinner,CUST168,Aarav Chopra,Kolkata,REST004,South Spice,South Indian,1,410.58,25,102.64,307.94,UPI,6,DP016,28,Delivered,,3.1
+FE1087,25-04-2026,18:34,Dinner,CUST093,Tanvi Patel,Mumbai,REST004,South Spice,South Indian,6,1300.62,25,325.15,975.47,Credit Card,4,DP008,35,Delivered,,5
+FE1088,19-04-2026,13:41,Dinner,CUST066,Ishaan Malhotra,Bangalore,REST003,Punjab Grill House,North Indian,6,2745.29,0,0,2745.29,Cash on Delivery,1.4,DP022,19,Delivered,,4.7
+FE1089,23-12-2025,09:53,Lunch,CUST033,Kavya Joshi,Pune,REST019,Mughal Mahal,North Indian,5,962.13,0,0,962.13,UPI,10.3,DP015,51,Delivered,,4.9
+FE1090,01-11-2025,15:54,Evening Snacks,CUST038,Sai Das,Bangalore,REST020,Biryani House,Biryani,2,296.7,20,59.34,237.36,Wallet,10.1,DP008,26,Delivered,,5
+FE1091,04-11-2025,18:50,Dinner,CUST007,Vivaan Sharma,Bangalore,REST005,Dosa Corner,South Indian,2,708.29,0,0,708.29,Cash on Delivery,2.8,DP004,32,Delayed,,2.3
+FE1092,23-02-2026,18:32,Late Night,CUST017,Saanvi Mehta,Mumbai,REST016,Healthy Bowl,Healthy,5,662.04,25,165.51,496.53,Credit Card,3.4,DP040,29,Delayed,,3.1
+FE1093,17-01-2026,21:41,Lunch,CUST169,Pooja Gupta,Bangalore,REST017,Green Leaf Cafe,Healthy,1,133.14,20,26.63,106.51,Debit Card,10.7,DP028,28,Delivered,,4.5
+FE1094,02-05-2026,21:04,Lunch,CUST028,Aditya Joshi,Mumbai,REST016,Healthy Bowl,Healthy,1,254.57,15,38.19,216.38,Cash on Delivery,1.6,DP018,12,Delivered,,3.5
+FE1095,21-03-2026,17:24,Breakfast,CUST163,Ayaan Mehta,Mumbai,REST019,Mughal Mahal,North Indian,5,1611.02,0,0,1611.02,UPI,6.7,DP028,35,Delivered,,4.1
+FE1096,17-04-2026,13:27,Evening Snacks,CUST180,Nikhil Gupta,Delhi,REST004,South Spice,South Indian,4,756.97,10,75.7,681.27,Credit Card,10.5,DP026,32,Delivered,,3.7
+FE1097,18-02-2026,17:42,Late Night,CUST025,Sunil Chopra,Chennai,REST011,Dragon Wok,Chinese,3,960.51,0,0,960.51,UPI,8.8,DP031,38,Delivered,,4.6
+FE1098,24-11-2025,20:06,Lunch,CUST024,Ishaan Verma,Mumbai,REST003,Punjab Grill House,North Indian,6,1822.03,15,273.3,1548.73,UPI,7.3,DP038,39,Delivered,,3.1
+FE1099,21-04-2026,10:26,Dinner,CUST144,Raj Bose,Bangalore,REST011,Dragon Wok,Chinese,3,1482.33,0,0,1482.33,UPI,5.7,DP004,40,Delivered,,4.6
+FE1100,30-01-2026,10:36,Dinner,CUST154,Aditya Patel,Bangalore,REST010,Wok This Way,Chinese,5,810.18,0,0,810.18,UPI,6.4,DP007,33,Delivered,,3.1
+FE1101,30-11-2025,15:36,Evening Snacks,CUST143,Diya Malhotra,Delhi,REST012,Sushi Spot,Japanese,2,680.56,15,102.08,578.48,UPI,12.2,DP040,47,Delivered,,3.7
+FE1102,23-03-2026,07:38,Late Night,CUST173,Meera Patel,Mumbai,REST021,Paradise Biryani,Biryani,6,2367.22,25,591.8,1775.42,Credit Card,2.9,DP045,13,Delivered,,4.2
+FE1103,29-01-2026,07:11,Dinner,CUST080,Rohan Gupta,Mumbai,REST011,Dragon Wok,Chinese,2,784.45,0,0,784.45,Credit Card,1.6,DP041,30,Delivered,,3.5
+FE1104,16-03-2026,13:24,Evening Snacks,CUST024,Ishaan Verma,Delhi,REST024,Brew & Bite,Cafe,4,1168.58,25,292.14,876.44,Debit Card,5.1,DP021,26,Delivered,,3.2
+FE1105,22-11-2025,08:09,Lunch,CUST146,Diya Nair,Mumbai,REST020,Biryani House,Biryani,2,649.36,20,129.87,519.49,UPI,1.8,DP029,24,Delivered,,3.8
+FE1106,05-04-2026,21:26,Late Night,CUST091,Ayaan Patel,Mumbai,REST016,Healthy Bowl,Healthy,3,628.13,0,0,628.13,UPI,2.1,DP028,13,Delivered,,4.4
+FE1107,23-04-2026,22:33,Evening Snacks,CUST040,Amit Mehta,Mumbai,REST022,Chaat Street,Street Food,6,1163.43,0,0,1163.43,Wallet,5.4,DP039,,Cancelled,Customer changed mind,
+FE1108,25-12-2025,11:48,Lunch,CUST053,Nikhil Rao,Chennai,REST010,Wok This Way,Chinese,3,636.97,0,0,636.97,UPI,0.9,DP028,21,Delivered,,4.3
+FE1109,17-03-2026,14:32,Lunch,CUST034,Aditya Singh,Hyderabad,REST013,Burger Barn,Fast Food,5,2368.43,10,236.84,2131.59,Cash on Delivery,1.6,DP003,14,Delivered,,3.5
+FE1110,20-11-2025,17:36,Lunch,CUST005,Amit Patel,Bangalore,REST015,KFC Junction,Fast Food,4,1434.96,0,0,1434.96,UPI,8.3,DP019,23,Delivered,,4.8
+FE1111,23-01-2026,12:51,Dinner,CUST104,Saanvi Sharma,Mumbai,REST001,Spice Villa,North Indian,5,1784.18,10,178.42,1605.76,Credit Card,11.6,DP006,42,Delivered,,3.9
+FE1112,20-02-2026,19:33,Late Night,CUST028,Aditya Joshi,Mumbai,REST008,Bella Italia,Italian,1,323.8,0,0,323.8,UPI,9.5,DP015,33,Delivered,,4.7
+FE1113,11-03-2026,10:33,Dinner,CUST044,Sai Chopra,Pune,REST003,Punjab Grill House,North Indian,5,1040.32,0,0,1040.32,Credit Card,4.9,DP042,23,Delayed,,2
+FE1114,15-12-2025,11:48,Late Night,CUST066,Ishaan Malhotra,Chennai,REST007,Pizza Mania,Italian,6,616.57,10,61.66,554.91,UPI,9.8,DP032,31,Delivered,,4.3
+FE1115,23-02-2026,17:55,Dinner,CUST018,Arjun Nair,Hyderabad,REST019,Mughal Mahal,North Indian,6,1244.11,20,248.82,995.29,UPI,1.6,DP029,17,Delivered,,3.9
+FE1116,01-04-2026,08:22,Dinner,CUST058,Sunil Mehta,Mumbai,REST009,Noodle Bar,Chinese,5,540.64,0,0,540.64,Debit Card,6.1,DP004,26,Delivered,,4.8
+FE1117,15-04-2026,09:39,Dinner,CUST019,Kavya Rao,Bangalore,REST003,Punjab Grill House,North Indian,5,1616.68,10,161.67,1455.01,Credit Card,7.6,DP003,31,Delivered,,2.9
+FE1118,19-12-2025,17:38,Dinner,CUST147,Vivaan Verma,Pune,REST021,Paradise Biryani,Biryani,4,1156.3,20,231.26,925.04,UPI,1.5,DP007,,Cancelled,Long delivery time,
+FE1119,15-04-2026,12:02,Dinner,CUST022,Aadhya Das,Bangalore,REST017,Green Leaf Cafe,Healthy,2,861.99,0,0,861.99,Wallet,5.9,DP034,37,Delayed,,2.2
+FE1120,18-05-2026,17:43,Lunch,CUST100,Kiara Das,Hyderabad,REST014,Quick Bites,Fast Food,5,591.32,0,0,591.32,UPI,8.4,DP005,38,Delivered,,4.6
+FE1121,23-04-2026,19:18,Dinner,CUST025,Sunil Chopra,Chennai,REST018,Sweet Tooth Bakery,Bakery,3,1539.85,25,384.96,1154.89,UPI,12.1,DP039,63,Delivered,,4.8
+FE1122,21-11-2025,11:58,Dinner,CUST039,Aadhya Nair,Mumbai,REST011,Dragon Wok,Chinese,3,847.57,15,127.14,720.43,Cash on Delivery,9,DP026,,Cancelled,Restaurant out of stock,
+FE1123,24-03-2026,19:41,Dinner,CUST022,Aadhya Das,Delhi,REST010,Wok This Way,Chinese,3,464.6,15,69.69,394.91,UPI,10.5,DP044,51,Delivered,,3.9
+FE1124,21-04-2026,20:32,Dinner,CUST024,Ishaan Verma,Delhi,REST021,Paradise Biryani,Biryani,3,252.33,0,0,252.33,Debit Card,2.9,DP014,33,Delivered,,4.9
+FE1125,28-12-2025,11:09,Lunch,CUST125,Sunil Rao,Delhi,REST007,Pizza Mania,Italian,1,262.83,25,65.71,197.12,UPI,2,DP035,21,Delivered,,4.8
+FE1126,19-04-2026,17:56,Late Night,CUST034,Aditya Singh,Bangalore,REST002,Tandoor Express,North Indian,5,763.59,25,190.9,572.69,UPI,2.6,DP012,22,Delivered,,5
+FE1127,27-05-2026,12:46,Dinner,CUST178,Pooja Sharma,Mumbai,REST020,Biryani House,Biryani,4,393.45,25,98.36,295.09,Wallet,8.7,DP016,96,Delayed,,2.7
+FE1128,17-03-2026,14:19,Lunch,CUST115,Sunil Bose,Pune,REST008,Bella Italia,Italian,4,678.15,10,67.81,610.34,Credit Card,11.9,DP029,49,Delivered,,5
+FE1129,09-03-2026,23:26,Late Night,CUST040,Amit Mehta,Kolkata,REST013,Burger Barn,Fast Food,2,407.86,0,0,407.86,Credit Card,2.4,DP017,16,Delivered,,4.2
+FE1130,04-02-2026,10:45,Evening Snacks,CUST165,Amit Joshi,Hyderabad,REST016,Healthy Bowl,Healthy,5,653.53,10,65.35,588.18,UPI,9.7,DP018,48,Delivered,,3.5
+FE1131,20-02-2026,09:58,Late Night,CUST132,Yash Patel,Bangalore,REST005,Dosa Corner,South Indian,2,715.39,0,0,715.39,UPI,11.7,DP027,31,Delivered,,4
+FE1132,04-02-2026,14:24,Evening Snacks,CUST102,Vihaan Singh,Delhi,REST017,Green Leaf Cafe,Healthy,1,241.14,25,60.28,180.86,UPI,4.5,DP007,39,Delivered,,2.3
+FE1133,22-05-2026,11:08,Evening Snacks,CUST167,Nikhil Patel,Kolkata,REST011,Dragon Wok,Chinese,1,263.73,25,65.93,197.8,Credit Card,6.3,DP009,30,Delivered,,4
+FE1134,07-04-2026,07:57,Late Night,CUST121,Myra Chopra,Mumbai,REST015,KFC Junction,Fast Food,1,80.31,20,16.06,64.25,Credit Card,10.6,DP036,32,Delivered,,4.2
+FE1135,17-02-2026,10:49,Late Night,CUST021,Kiara Gupta,Delhi,REST017,Green Leaf Cafe,Healthy,3,555.04,20,111.01,444.03,UPI,1.4,DP027,18,Delivered,,4.2
+FE1136,17-11-2025,10:53,Breakfast,CUST160,Myra Rao,Hyderabad,REST015,KFC Junction,Fast Food,4,1562.21,0,0,1562.21,Cash on Delivery,8.2,DP037,31,Delivered,,2.3
+FE1137,18-02-2026,07:39,Dinner,CUST037,Priya Das,Bangalore,REST010,Wok This Way,Chinese,3,626.21,0,0,626.21,UPI,3,DP043,31,Delivered,,3.2
+FE1138,18-11-2025,23:34,Evening Snacks,CUST034,Aditya Singh,Hyderabad,REST012,Sushi Spot,Japanese,5,1731.72,0,0,1731.72,UPI,5.4,DP031,22,Delivered,,4.9
+FE1139,04-02-2026,15:47,Lunch,CUST163,Ayaan Mehta,Mumbai,REST013,Burger Barn,Fast Food,1,292.24,20,58.45,233.79,UPI,4.8,DP043,37,Delivered,,3.8
+FE1140,08-05-2026,17:08,Lunch,CUST027,Nikhil Kapoor,Hyderabad,REST019,Mughal Mahal,North Indian,1,264.79,25,66.2,198.59,UPI,10.3,DP012,44,Delivered,,4.7
+FE1141,28-04-2026,22:40,Evening Snacks,CUST044,Sai Chopra,Chennai,REST015,KFC Junction,Fast Food,2,245.92,0,0,245.92,Debit Card,9.9,DP030,43,Delivered,,4.6
+FE1142,12-11-2025,13:56,Lunch,CUST076,Myra Iyer,Mumbai,REST007,Pizza Mania,Italian,1,282.78,10,28.28,254.5,UPI,6.8,DP035,29,Delivered,,4.4
+FE1143,12-05-2026,13:18,Late Night,CUST065,Arjun Iyer,Bangalore,REST002,Tandoor Express,North Indian,3,357.65,25,89.41,268.24,Cash on Delivery,4.7,DP008,16,Delivered,,3.7
+FE1144,11-02-2026,21:57,Lunch,CUST062,Arjun Bose,Hyderabad,REST014,Quick Bites,Fast Food,4,1203.76,0,0,1203.76,Debit Card,6.6,DP032,20,Delivered,,2.7
+FE1145,25-05-2026,09:46,Late Night,CUST133,Priya Gupta,Delhi,REST009,Noodle Bar,Chinese,4,466.68,15,70,396.68,Cash on Delivery,12.4,DP012,59,Delivered,,4.2
+FE1146,27-11-2025,09:20,Dinner,CUST076,Myra Iyer,Chennai,REST011,Dragon Wok,Chinese,6,1278.72,0,0,1278.72,Credit Card,7.9,DP028,43,Delivered,,4.4
+FE1147,29-01-2026,21:02,Lunch,CUST177,Tanvi Joshi,Hyderabad,REST015,KFC Junction,Fast Food,6,1631.67,0,0,1631.67,UPI,5.9,DP041,,Cancelled,Customer changed mind,
+FE1148,12-02-2026,18:32,Dinner,CUST083,Arjun Das,Kolkata,REST021,Paradise Biryani,Biryani,6,2213.55,20,442.71,1770.84,UPI,1.2,DP039,12,Delivered,,4.6
+FE1149,03-12-2025,09:15,Dinner,CUST113,Ananya Bose,Hyderabad,REST002,Tandoor Express,North Indian,6,1513.67,15,227.05,1286.62,UPI,11.9,DP003,57,Delivered,,5
+FE1150,24-02-2026,18:23,Late Night,CUST040,Amit Mehta,Mumbai,REST022,Chaat Street,Street Food,4,490.07,0,0,490.07,Credit Card,7,DP026,35,Delivered,,2.5
+FE1151,03-01-2026,10:01,Dinner,CUST167,Nikhil Patel,Mumbai,REST009,Noodle Bar,Chinese,6,1049.6,0,0,1049.6,UPI,5.3,DP036,16,Delivered,,4.6
+FE1152,30-04-2026,21:13,Lunch,CUST068,Kiara Kapoor,Delhi,REST009,Noodle Bar,Chinese,5,1217.68,0,0,1217.68,Debit Card,12.5,DP013,50,Delivered,,3
+FE1153,24-02-2026,12:57,Late Night,CUST035,Yash Gupta,Hyderabad,REST003,Punjab Grill House,North Indian,6,2208.38,20,441.68,1766.7,Debit Card,10.3,DP021,45,Delivered,,3.1
+FE1154,17-11-2025,16:57,Dinner,CUST089,Meera Joshi,Bangalore,REST023,Cafe Mocha,Cafe,3,520.67,0,0,520.67,UPI,11.6,DP041,41,Delivered,,4.4
+FE1155,28-12-2025,10:12,Dinner,CUST093,Tanvi Patel,Pune,REST017,Green Leaf Cafe,Healthy,2,448.69,15,67.3,381.39,Debit Card,1.1,DP036,12,Delivered,,3.9
+FE1156,25-05-2026,11:39,Dinner,CUST062,Arjun Bose,Pune,REST015,KFC Junction,Fast Food,1,104.38,15,15.66,88.72,UPI,12.5,DP031,32,Delivered,,5
+FE1157,30-05-2026,09:08,Lunch,CUST105,Neha Singh,Kolkata,REST014,Quick Bites,Fast Food,3,1015.51,0,0,1015.51,Wallet,6.3,DP034,20,Delivered,,4
+FE1158,13-04-2026,12:49,Dinner,CUST033,Kavya Joshi,Chennai,REST018,Sweet Tooth Bakery,Bakery,2,602.69,0,0,602.69,Cash on Delivery,11,DP008,,Cancelled,Address issue,
+FE1159,12-12-2025,17:59,Dinner,CUST058,Sunil Mehta,Delhi,REST006,Sagar Ratna,South Indian,6,1097.94,20,219.59,878.35,UPI,11.8,DP019,94,Delayed,,2
+FE1160,03-12-2025,16:39,Breakfast,CUST142,Ananya Chopra,Kolkata,REST009,Noodle Bar,Chinese,5,635.65,0,0,635.65,Debit Card,2.8,DP038,28,Delivered,,4.3
+FE1161,09-04-2026,17:53,Lunch,CUST044,Sai Chopra,Pune,REST022,Chaat Street,Street Food,5,570.7,25,142.68,428.02,Wallet,1.1,DP003,,Cancelled,Restaurant closed,
+FE1162,16-04-2026,13:49,Dinner,CUST125,Sunil Rao,Delhi,REST009,Noodle Bar,Chinese,5,1534.21,15,230.13,1304.08,UPI,1.2,DP041,17,Delivered,,3.9
+FE1163,17-01-2026,22:15,Dinner,CUST075,Vihaan Joshi,Mumbai,REST021,Paradise Biryani,Biryani,6,1582.47,0,0,1582.47,UPI,1.7,DP004,16,Delivered,,4.1
+FE1164,04-03-2026,21:13,Dinner,CUST113,Ananya Bose,Bangalore,REST014,Quick Bites,Fast Food,3,1003.24,20,200.65,802.59,UPI,10.9,DP021,38,Delivered,,4.4
+FE1165,04-12-2025,18:32,Breakfast,CUST089,Meera Joshi,Delhi,REST013,Burger Barn,Fast Food,5,621.52,10,62.15,559.37,Cash on Delivery,6.3,DP018,37,Delivered,,4.3
+FE1166,25-11-2025,08:18,Dinner,CUST035,Yash Gupta,Kolkata,REST005,Dosa Corner,South Indian,4,1528.26,25,382.06,1146.2,Wallet,12.1,DP011,53,Delivered,,3.8
+FE1167,04-05-2026,17:12,Dinner,CUST015,Kavya Iyer,Bangalore,REST019,Mughal Mahal,North Indian,2,802.92,10,80.29,722.63,Cash on Delivery,6.3,DP020,69,Delayed,,1.7
+FE1168,01-01-2026,13:37,Evening Snacks,CUST130,Sai Mehta,Pune,REST015,KFC Junction,Fast Food,3,255.91,20,51.18,204.73,Credit Card,6.6,DP042,24,Delivered,,4.8
+FE1169,18-03-2026,07:54,Lunch,CUST121,Myra Chopra,Delhi,REST010,Wok This Way,Chinese,1,256.07,25,64.02,192.05,UPI,3.9,DP024,12,Delivered,,3.4
+FE1170,12-11-2025,19:03,Late Night,CUST104,Saanvi Sharma,Delhi,REST012,Sushi Spot,Japanese,5,1610.88,15,241.63,1369.25,Cash on Delivery,7.3,DP005,,Cancelled,Payment failed,
+FE1171,11-01-2026,10:08,Evening Snacks,CUST116,Ayaan Bose,Kolkata,REST018,Sweet Tooth Bakery,Bakery,1,266.75,0,0,266.75,Debit Card,12.3,DP036,39,Delivered,,4.3
+FE1172,04-04-2026,23:25,Dinner,CUST037,Priya Das,Hyderabad,REST007,Pizza Mania,Italian,5,409.06,25,102.27,306.79,UPI,2.4,DP022,24,Delivered,,3.8
+FE1173,25-02-2026,11:38,Lunch,CUST122,Yash Verma,Pune,REST017,Green Leaf Cafe,Healthy,5,703.05,25,175.76,527.29,UPI,8,DP011,47,Delayed,,2.7
+FE1174,26-01-2026,23:53,Late Night,CUST077,Priya Sharma,Chennai,REST019,Mughal Mahal,North Indian,5,1752.85,25,438.21,1314.64,Wallet,7.4,DP031,30,Delivered,,3.4
+FE1175,24-01-2026,10:26,Lunch,CUST005,Amit Patel,Pune,REST012,Sushi Spot,Japanese,5,1325.66,20,265.13,1060.53,Cash on Delivery,9.3,DP045,32,Delivered,,3.7
+FE1176,02-03-2026,15:41,Dinner,CUST007,Vivaan Sharma,Hyderabad,REST020,Biryani House,Biryani,5,1670.66,0,0,1670.66,UPI,1.4,DP031,15,Delivered,,4.6
+FE1177,04-05-2026,19:09,Late Night,CUST034,Aditya Singh,Chennai,REST021,Paradise Biryani,Biryani,6,994.66,0,0,994.66,Cash on Delivery,11.9,DP008,49,Delivered,,5
+FE1178,20-01-2026,20:09,Evening Snacks,CUST005,Amit Patel,Mumbai,REST015,KFC Junction,Fast Food,4,1526.86,10,152.69,1374.17,UPI,6.7,DP040,38,Delivered,,3.5
+FE1179,06-12-2025,23:13,Lunch,CUST011,Raj Malhotra,Mumbai,REST023,Cafe Mocha,Cafe,5,1475.08,0,0,1475.08,Debit Card,6.4,DP025,12,Delivered,,3.6
+FE1180,17-03-2026,17:34,Lunch,CUST036,Kiara Mehta,Chennai,REST015,KFC Junction,Fast Food,3,1417.04,0,0,1417.04,Debit Card,9.2,DP042,,Cancelled,Restaurant closed,
+FE1181,20-12-2025,14:17,Dinner,CUST157,Meera Singh,Pune,REST016,Healthy Bowl,Healthy,5,1032.34,20,206.47,825.87,Cash on Delivery,12.2,DP020,,Cancelled,Long delivery time,
+FE1182,30-04-2026,22:20,Dinner,CUST054,Reyansh Bose,Pune,REST023,Cafe Mocha,Cafe,4,1056.97,0,0,1056.97,Debit Card,11.7,DP018,52,Delivered,,5
+FE1183,23-04-2026,19:57,Late Night,CUST032,Vivaan Singh,Mumbai,REST019,Mughal Mahal,North Indian,4,1210.21,0,0,1210.21,Cash on Delivery,10.2,DP019,37,Delivered,,3.6
+FE1184,21-11-2025,18:59,Dinner,CUST019,Kavya Rao,Mumbai,REST023,Cafe Mocha,Cafe,4,1498.28,25,374.57,1123.71,Cash on Delivery,6.4,DP013,29,Delivered,,4.2
+FE1185,24-03-2026,15:08,Late Night,CUST138,Reyansh Kapoor,Hyderabad,REST009,Noodle Bar,Chinese,1,433.06,20,86.61,346.45,Debit Card,3.6,DP004,30,Delivered,,3.3
+FE1186,13-04-2026,14:03,Lunch,CUST136,Sai Malhotra,Pune,REST008,Bella Italia,Italian,1,271.25,25,67.81,203.44,Cash on Delivery,6.3,DP044,35,Delivered,,4.2
+FE1187,21-03-2026,12:26,Late Night,CUST036,Kiara Mehta,Hyderabad,REST001,Spice Villa,North Indian,6,1920.52,0,0,1920.52,UPI,3.1,DP019,24,Delivered,,4.5
+FE1188,16-11-2025,09:41,Dinner,CUST019,Kavya Rao,Delhi,REST021,Paradise Biryani,Biryani,5,1003.92,0,0,1003.92,UPI,9.3,DP003,23,Delivered,,4.9
+FE1189,10-11-2025,19:50,Dinner,CUST107,Aarav Patel,Mumbai,REST006,Sagar Ratna,South Indian,4,822.25,0,0,822.25,Wallet,12.1,DP019,48,Delivered,,3.8
+FE1190,26-03-2026,10:59,Lunch,CUST003,Ayaan Singh,Mumbai,REST010,Wok This Way,Chinese,3,662.67,10,66.27,596.4,Credit Card,8.3,DP034,41,Delivered,,5
+FE1191,28-02-2026,15:12,Late Night,CUST035,Yash Gupta,Delhi,REST017,Green Leaf Cafe,Healthy,1,215.38,20,43.08,172.3,Credit Card,6.2,DP017,20,Delivered,,4.1
+FE1192,08-05-2026,17:50,Lunch,CUST048,Tanvi Verma,Pune,REST001,Spice Villa,North Indian,3,1187.43,25,296.86,890.57,UPI,3.1,DP040,31,Delivered,,5
+FE1193,18-02-2026,23:20,Lunch,CUST164,Kiara Reddy,Kolkata,REST013,Burger Barn,Fast Food,1,304.3,10,30.43,273.87,Credit Card,3,DP009,21,Delivered,,4.6
+FE1194,02-11-2025,15:24,Lunch,CUST083,Arjun Das,Bangalore,REST008,Bella Italia,Italian,2,678.53,15,101.78,576.75,Wallet,12,DP020,52,Delivered,,4.1
+FE1195,06-01-2026,18:44,Breakfast,CUST147,Vivaan Verma,Delhi,REST001,Spice Villa,North Indian,2,236.9,10,23.69,213.21,Debit Card,6.2,DP011,38,Delivered,,4
+FE1196,30-04-2026,16:44,Lunch,CUST044,Sai Chopra,Kolkata,REST017,Green Leaf Cafe,Healthy,1,474.75,0,0,474.75,Cash on Delivery,4.3,DP040,,Cancelled,Restaurant out of stock,
+FE1197,10-12-2025,21:47,Dinner,CUST035,Yash Gupta,Pune,REST016,Healthy Bowl,Healthy,5,1309.39,25,327.35,982.04,UPI,7.2,DP031,38,Delivered,,4.3
+FE1198,26-12-2025,14:43,Dinner,CUST138,Reyansh Kapoor,Pune,REST022,Chaat Street,Street Food,5,611.17,0,0,611.17,UPI,7,DP024,38,Delivered,,3.7
+FE1199,16-11-2025,23:12,Dinner,CUST018,Arjun Nair,Delhi,REST004,South Spice,South Indian,5,1522.1,10,152.21,1369.89,UPI,4.6,DP034,40,Delivered,,4.8
+FE1200,23-12-2025,22:05,Evening Snacks,CUST030,Neha Nair,Delhi,REST022,Chaat Street,Street Food,5,1730.15,10,173.01,1557.14,UPI,6.1,DP033,25,Delivered,,3.9
+FE1201,15-11-2025,21:43,Lunch,CUST066,Ishaan Malhotra,Hyderabad,REST019,Mughal Mahal,North Indian,3,1091.76,0,0,1091.76,Debit Card,3.8,DP001,,Cancelled,Restaurant closed,
+FE1202,12-11-2025,20:22,Breakfast,CUST147,Vivaan Verma,Pune,REST003,Punjab Grill House,North Indian,6,683.06,0,0,683.06,Credit Card,1.5,DP005,30,Delayed,,2.4
+FE1203,16-05-2026,11:49,Dinner,CUST105,Neha Singh,Mumbai,REST006,Sagar Ratna,South Indian,6,2916.36,10,291.64,2624.72,Debit Card,5.2,DP025,24,Delivered,,4
+FE1204,21-11-2025,11:41,Dinner,CUST097,Ananya Malhotra,Delhi,REST013,Burger Barn,Fast Food,3,365.98,0,0,365.98,UPI,7.1,DP034,32,Delivered,,3.5
+FE1205,13-05-2026,07:19,Dinner,CUST058,Sunil Mehta,Hyderabad,REST001,Spice Villa,North Indian,4,1844.63,25,461.16,1383.47,Cash on Delivery,5.8,DP025,27,Delivered,,5
+FE1206,26-02-2026,18:09,Late Night,CUST059,Sunil Malhotra,Mumbai,REST008,Bella Italia,Italian,3,620.38,0,0,620.38,UPI,9.3,DP008,45,Delivered,,4.7
+FE1207,07-04-2026,07:15,Dinner,CUST008,Aditya Nair,Pune,REST014,Quick Bites,Fast Food,2,191.6,20,38.32,153.28,UPI,1.2,DP039,21,Delivered,,5
+FE1208,09-05-2026,08:25,Dinner,CUST013,Neha Mehta,Bangalore,REST008,Bella Italia,Italian,4,808.66,0,0,808.66,Credit Card,9.6,DP004,40,Delivered,,3.7
+FE1209,30-12-2025,17:36,Lunch,CUST129,Arjun Malhotra,Chennai,REST010,Wok This Way,Chinese,5,2389.99,20,478,1911.99,Wallet,3.6,DP010,20,Delivered,,4.6
+FE1210,14-02-2026,16:17,Dinner,CUST007,Vivaan Sharma,Hyderabad,REST008,Bella Italia,Italian,1,430.48,20,86.1,344.38,Credit Card,11.1,DP012,38,Delivered,,4.2
+FE1211,23-03-2026,22:03,Dinner,CUST157,Meera Singh,Mumbai,REST014,Quick Bites,Fast Food,3,1311.09,20,262.22,1048.87,UPI,10,DP021,40,Delivered,,4
+FE1212,09-12-2025,16:24,Dinner,CUST107,Aarav Patel,Chennai,REST014,Quick Bites,Fast Food,2,702.48,25,175.62,526.86,Debit Card,10.7,DP020,28,Delivered,,3.3
+FE1213,15-11-2025,20:26,Breakfast,CUST037,Priya Das,Kolkata,REST015,KFC Junction,Fast Food,5,1498.13,0,0,1498.13,Cash on Delivery,3.6,DP014,12,Delivered,,5
+FE1214,24-02-2026,18:05,Dinner,CUST166,Priya Rao,Bangalore,REST003,Punjab Grill House,North Indian,5,2546.47,20,509.29,2037.18,Wallet,1.4,DP025,14,Delivered,,4.7
+FE1215,11-11-2025,09:12,Lunch,CUST155,Amit Singh,Kolkata,REST020,Biryani House,Biryani,5,2404.31,25,601.08,1803.23,Debit Card,3.3,DP014,12,Delivered,,3.8
+FE1216,04-11-2025,13:59,Late Night,CUST086,Pooja Rao,Pune,REST010,Wok This Way,Chinese,2,307.65,20,61.53,246.12,UPI,9.6,DP016,42,Delivered,,4.2
+FE1217,23-12-2025,19:58,Dinner,CUST155,Amit Singh,Delhi,REST023,Cafe Mocha,Cafe,2,672.34,15,100.85,571.49,Credit Card,4.1,DP030,34,Delivered,,5
+FE1218,18-01-2026,15:23,Evening Snacks,CUST167,Nikhil Patel,Mumbai,REST012,Sushi Spot,Japanese,5,1647.29,25,411.82,1235.47,Wallet,10.2,DP031,26,Delivered,,3.3
+FE1219,03-02-2026,17:26,Lunch,CUST082,Tanvi Nair,Pune,REST007,Pizza Mania,Italian,1,421.59,0,0,421.59,Wallet,9.5,DP002,48,Delivered,,4.3
+FE1220,29-03-2026,20:18,Dinner,CUST142,Ananya Chopra,Delhi,REST019,Mughal Mahal,North Indian,2,335.5,10,33.55,301.95,Credit Card,5.2,DP016,17,Delivered,,5
+FE1221,25-04-2026,17:16,Lunch,CUST141,Aarav Kapoor,Mumbai,REST021,Paradise Biryani,Biryani,4,1902.02,20,380.4,1521.62,UPI,6.5,DP011,38,Delivered,,4
+FE1222,06-12-2025,22:11,Dinner,CUST091,Ayaan Patel,Chennai,REST006,Sagar Ratna,South Indian,5,2413.11,0,0,2413.11,Credit Card,6.9,DP005,,Cancelled,Restaurant closed,
+FE1223,06-12-2025,14:04,Lunch,CUST002,Aarav Mehta,Delhi,REST014,Quick Bites,Fast Food,6,757.04,15,113.56,643.48,UPI,6.7,DP024,45,Delayed,,2.8
+FE1224,05-03-2026,07:00,Lunch,CUST124,Vivaan Kapoor,Mumbai,REST022,Chaat Street,Street Food,5,1745.81,15,261.87,1483.94,Credit Card,1,DP018,20,Delayed,,2.1
+FE1225,19-02-2026,12:06,Dinner,CUST165,Amit Joshi,Delhi,REST022,Chaat Street,Street Food,1,299.13,25,74.78,224.35,UPI,3,DP034,,Cancelled,Long delivery time,
+FE1226,23-05-2026,19:05,Dinner,CUST091,Ayaan Patel,Bangalore,REST009,Noodle Bar,Chinese,3,846.88,0,0,846.88,Credit Card,3.6,DP045,27,Delivered,,5
+FE1227,21-11-2025,08:05,Dinner,CUST077,Priya Sharma,Delhi,REST022,Chaat Street,Street Food,4,1042.15,0,0,1042.15,Wallet,6.4,DP041,22,Delivered,,3.8
+FE1228,22-11-2025,22:54,Lunch,CUST180,Nikhil Gupta,Chennai,REST006,Sagar Ratna,South Indian,4,1826.55,0,0,1826.55,Debit Card,7.4,DP007,,Cancelled,Address issue,
+FE1229,27-04-2026,22:17,Dinner,CUST059,Sunil Malhotra,Kolkata,REST007,Pizza Mania,Italian,1,126.71,15,19.01,107.7,Credit Card,4.1,DP035,32,Delivered,,4.4
+FE1230,16-12-2025,17:01,Late Night,CUST169,Pooja Gupta,Mumbai,REST002,Tandoor Express,North Indian,2,651.83,0,0,651.83,Debit Card,10.4,DP026,32,Delivered,,4.7
+FE1231,25-03-2026,14:36,Dinner,CUST077,Priya Sharma,Bangalore,REST006,Sagar Ratna,South Indian,4,1974.27,25,493.57,1480.7,UPI,4.7,DP009,34,Delivered,,4
+FE1232,21-11-2025,23:47,Dinner,CUST177,Tanvi Joshi,Hyderabad,REST024,Brew & Bite,Cafe,3,269.34,0,0,269.34,Cash on Delivery,3.5,DP005,12,Delivered,,3.5
+FE1233,02-04-2026,19:49,Dinner,CUST155,Amit Singh,Chennai,REST020,Biryani House,Biryani,3,300.29,10,30.03,270.26,Cash on Delivery,10,DP029,50,Delivered,,4
+FE1234,22-03-2026,19:27,Breakfast,CUST059,Sunil Malhotra,Bangalore,REST012,Sushi Spot,Japanese,2,885.4,0,0,885.4,UPI,5.2,DP040,17,Delivered,,3
+FE1235,19-11-2025,09:17,Evening Snacks,CUST035,Yash Gupta,Bangalore,REST023,Cafe Mocha,Cafe,2,594.4,0,0,594.4,UPI,8.2,DP025,25,Delivered,,3.8
+FE1236,24-11-2025,07:19,Dinner,CUST093,Tanvi Patel,Hyderabad,REST004,South Spice,South Indian,4,1166.39,10,116.64,1049.75,Debit Card,2,DP006,,Cancelled,Restaurant out of stock,
+FE1237,23-03-2026,23:26,Evening Snacks,CUST115,Sunil Bose,Bangalore,REST018,Sweet Tooth Bakery,Bakery,1,77.73,15,11.66,66.07,UPI,7.3,DP039,27,Delivered,,3.2
+FE1238,04-11-2025,16:26,Dinner,CUST015,Kavya Iyer,Hyderabad,REST013,Burger Barn,Fast Food,4,536.25,15,80.44,455.81,Debit Card,7.3,DP016,20,Delivered,,4.6
+FE1239,25-04-2026,19:10,Breakfast,CUST007,Vivaan Sharma,Kolkata,REST006,Sagar Ratna,South Indian,2,399.48,0,0,399.48,UPI,6.6,DP005,38,Delivered,,4.7
+FE1240,16-02-2026,16:30,Late Night,CUST034,Aditya Singh,Delhi,REST009,Noodle Bar,Chinese,1,237.78,10,23.78,214,UPI,3.7,DP041,42,Delayed,,2.7
+FE1241,17-01-2026,07:25,Lunch,CUST028,Aditya Joshi,Delhi,REST005,Dosa Corner,South Indian,3,1133.78,0,0,1133.78,Credit Card,10.9,DP029,35,Delivered,,3.5
+FE1242,02-04-2026,11:19,Dinner,CUST111,Yash Rao,Chennai,REST021,Paradise Biryani,Biryani,3,1372.25,0,0,1372.25,UPI,3.1,DP021,34,Delivered,,4.7
+FE1243,14-01-2026,22:36,Lunch,CUST102,Vihaan Singh,Bangalore,REST011,Dragon Wok,Chinese,2,467.61,0,0,467.61,UPI,10.4,DP026,33,Delivered,,4.6
+FE1244,22-12-2025,12:43,Lunch,CUST030,Neha Nair,Pune,REST019,Mughal Mahal,North Indian,5,549.26,10,54.93,494.33,Credit Card,6.2,DP014,41,Delivered,,4.1
+FE1245,18-11-2025,20:43,Dinner,CUST075,Vihaan Joshi,Mumbai,REST023,Cafe Mocha,Cafe,4,636.21,20,127.24,508.97,Wallet,3.6,DP043,,Cancelled,Restaurant out of stock,
+FE1246,19-11-2025,21:38,Lunch,CUST091,Ayaan Patel,Delhi,REST013,Burger Barn,Fast Food,4,1452.01,10,145.2,1306.81,Debit Card,6.7,DP045,34,Delivered,,3.3
+FE1247,22-05-2026,18:44,Lunch,CUST140,Sai Kapoor,Pune,REST002,Tandoor Express,North Indian,5,2026.12,20,405.22,1620.9,Cash on Delivery,1.8,DP016,13,Delivered,,3.7
+FE1248,13-12-2025,08:36,Evening Snacks,CUST070,Rohan Mehta,Hyderabad,REST012,Sushi Spot,Japanese,6,2706.03,25,676.51,2029.52,Credit Card,12.1,DP022,47,Delivered,,4.6
+FE1249,03-11-2025,10:16,Lunch,CUST111,Yash Rao,Delhi,REST004,South Spice,South Indian,2,749.34,15,112.4,636.94,UPI,7.3,DP045,36,Delivered,,4.9
+FE1250,04-02-2026,19:29,Evening Snacks,CUST057,Arjun Singh,Delhi,REST015,KFC Junction,Fast Food,6,2460.14,10,246.01,2214.13,Credit Card,2.6,DP002,39,Delivered,,3.6
+FE1251,15-02-2026,09:07,Dinner,CUST027,Nikhil Kapoor,Bangalore,REST010,Wok This Way,Chinese,6,856.67,0,0,856.67,Debit Card,4.8,DP014,66,Delayed,,2.2
+FE1252,28-04-2026,21:20,Lunch,CUST113,Ananya Bose,Mumbai,REST024,Brew & Bite,Cafe,1,190.56,25,47.64,142.92,Debit Card,9.1,DP002,24,Delivered,,4.6
+FE1253,28-11-2025,12:59,Late Night,CUST088,Vihaan Das,Mumbai,REST021,Paradise Biryani,Biryani,6,1231.83,15,184.77,1047.06,UPI,7.3,DP022,24,Delivered,,3.7
+FE1254,30-12-2025,19:40,Dinner,CUST110,Meera Verma,Mumbai,REST015,KFC Junction,Fast Food,2,369.67,20,73.93,295.74,UPI,5.9,DP002,24,Delivered,,4.7
+FE1255,24-02-2026,20:24,Dinner,CUST158,Neha Verma,Chennai,REST007,Pizza Mania,Italian,1,389.8,15,58.47,331.33,Credit Card,4.1,DP005,15,Delivered,,3.3
+FE1256,18-12-2025,18:20,Dinner,CUST027,Nikhil Kapoor,Kolkata,REST018,Sweet Tooth Bakery,Bakery,2,531.03,15,79.65,451.38,Credit Card,8.6,DP032,34,Delivered,,5
+FE1257,02-04-2026,19:39,Late Night,CUST164,Kiara Reddy,Hyderabad,REST011,Dragon Wok,Chinese,4,1285.45,15,192.82,1092.63,UPI,4.9,DP030,19,Delivered,,4.6
+FE1258,30-04-2026,16:58,Evening Snacks,CUST036,Kiara Mehta,Mumbai,REST022,Chaat Street,Street Food,5,1592.75,0,0,1592.75,Cash on Delivery,2.4,DP008,31,Delivered,,3.3
+FE1259,17-12-2025,18:44,Lunch,CUST079,Rohan Iyer,Kolkata,REST004,South Spice,South Indian,2,651.57,10,65.16,586.41,UPI,7.8,DP037,,Cancelled,Payment failed,
+FE1260,12-04-2026,12:35,Dinner,CUST048,Tanvi Verma,Bangalore,REST016,Healthy Bowl,Healthy,2,604.25,15,90.64,513.61,UPI,3,DP029,28,Delivered,,4.3
+FE1261,03-11-2025,22:08,Dinner,CUST014,Ishaan Sharma,Pune,REST012,Sushi Spot,Japanese,2,654.41,10,65.44,588.97,UPI,6.7,DP032,30,Delivered,,3.6
+FE1262,15-02-2026,21:31,Late Night,CUST044,Sai Chopra,Mumbai,REST016,Healthy Bowl,Healthy,2,250.38,0,0,250.38,Credit Card,10.1,DP015,29,Delivered,,3.4
+FE1263,28-12-2025,16:10,Dinner,CUST009,Ayaan Sharma,Hyderabad,REST009,Noodle Bar,Chinese,4,1619.18,15,242.88,1376.3,Wallet,9.8,DP036,22,Delivered,,4.3
+FE1264,30-11-2025,15:49,Dinner,CUST029,Tanvi Das,Bangalore,REST019,Mughal Mahal,North Indian,5,1357.45,15,203.62,1153.83,Cash on Delivery,9.7,DP029,38,Delivered,,3.7
+FE1265,27-11-2025,14:19,Evening Snacks,CUST056,Arjun Mehta,Mumbai,REST014,Quick Bites,Fast Food,1,280.59,10,28.06,252.53,UPI,10.9,DP006,50,Delivered,,4.2
+FE1266,24-12-2025,18:55,Dinner,CUST031,Raj Patel,Hyderabad,REST008,Bella Italia,Italian,6,2476.91,25,619.23,1857.68,UPI,2.7,DP009,,Cancelled,Restaurant out of stock,
+FE1267,26-03-2026,18:34,Dinner,CUST053,Nikhil Rao,Kolkata,REST002,Tandoor Express,North Indian,3,1172.91,0,0,1172.91,Debit Card,4.6,DP019,21,Delivered,,4.6
+FE1268,12-03-2026,10:08,Lunch,CUST147,Vivaan Verma,Bangalore,REST009,Noodle Bar,Chinese,4,526.68,20,105.34,421.34,UPI,10.9,DP009,46,Delivered,,4.2
+FE1269,08-12-2025,17:53,Dinner,CUST034,Aditya Singh,Delhi,REST008,Bella Italia,Italian,2,815.43,0,0,815.43,Credit Card,2.5,DP041,23,Delivered,,3.6
+FE1270,05-02-2026,21:04,Dinner,CUST161,Nikhil Mehta,Hyderabad,REST014,Quick Bites,Fast Food,6,732.39,10,73.24,659.15,UPI,9.6,DP045,61,Delayed,,2.2
+FE1271,01-11-2025,09:46,Dinner,CUST015,Kavya Iyer,Mumbai,REST019,Mughal Mahal,North Indian,4,1726.37,25,431.59,1294.78,Wallet,5,DP005,26,Delivered,,3.8
+FE1272,26-12-2025,20:52,Breakfast,CUST137,Riya Bose,Pune,REST013,Burger Barn,Fast Food,2,604.34,25,151.09,453.25,Credit Card,10.5,DP022,63,Delayed,,1.8
+FE1273,24-04-2026,08:02,Dinner,CUST125,Sunil Rao,Chennai,REST011,Dragon Wok,Chinese,1,445.42,25,111.36,334.06,UPI,6.2,DP008,34,Delivered,,5
+FE1274,25-02-2026,07:27,Late Night,CUST031,Raj Patel,Mumbai,REST015,KFC Junction,Fast Food,2,1005.49,0,0,1005.49,Credit Card,11.1,DP020,38,Delivered,,3.4
+FE1275,17-04-2026,18:16,Dinner,CUST071,Karan Sharma,Chennai,REST003,Punjab Grill House,North Indian,1,287.77,10,28.78,258.99,Cash on Delivery,8.4,DP004,35,Delivered,,4.1
+FE1276,05-05-2026,14:27,Lunch,CUST161,Nikhil Mehta,Mumbai,REST010,Wok This Way,Chinese,6,817.6,0,0,817.6,Cash on Delivery,0.8,DP031,17,Delivered,,3.4
+FE1277,28-12-2025,23:43,Lunch,CUST034,Aditya Singh,Mumbai,REST019,Mughal Mahal,North Indian,4,269.88,25,67.47,202.41,Wallet,4.8,DP008,19,Delivered,,4.2
+FE1278,04-12-2025,22:04,Dinner,CUST091,Ayaan Patel,Bangalore,REST023,Cafe Mocha,Cafe,2,461.32,0,0,461.32,UPI,10.2,DP007,30,Delivered,,4.2
+FE1279,06-12-2025,19:49,Evening Snacks,CUST062,Arjun Bose,Pune,REST010,Wok This Way,Chinese,2,976.9,15,146.53,830.37,UPI,2.5,DP034,14,Delivered,,2.6
+FE1280,16-04-2026,12:28,Late Night,CUST003,Ayaan Singh,Chennai,REST020,Biryani House,Biryani,3,1192.39,15,178.86,1013.53,Cash on Delivery,9.6,DP027,48,Delivered,,3.4
+FE1281,26-12-2025,09:57,Dinner,CUST044,Sai Chopra,Delhi,REST015,KFC Junction,Fast Food,1,166.25,0,0,166.25,UPI,7.7,DP025,33,Delivered,,4.8
+FE1282,22-05-2026,11:15,Late Night,CUST110,Meera Verma,Hyderabad,REST011,Dragon Wok,Chinese,3,1025.45,20,205.09,820.36,Debit Card,7.3,DP039,28,Delivered,,4.3
+FE1283,19-05-2026,07:54,Dinner,CUST021,Kiara Gupta,Mumbai,REST010,Wok This Way,Chinese,6,1238.58,20,247.72,990.86,Credit Card,7.9,DP013,32,Delivered,,4.3
+FE1284,15-04-2026,08:50,Breakfast,CUST101,Priya Chopra,Pune,REST010,Wok This Way,Chinese,2,635.6,15,95.34,540.26,UPI,3.6,DP041,17,Delivered,,5
+FE1285,04-11-2025,18:59,Dinner,CUST019,Kavya Rao,Delhi,REST017,Green Leaf Cafe,Healthy,3,421.04,0,0,421.04,Debit Card,10.6,DP027,37,Delivered,,3.9
+FE1286,15-12-2025,22:49,Dinner,CUST140,Sai Kapoor,Hyderabad,REST022,Chaat Street,Street Food,1,91.08,0,0,91.08,UPI,1,DP014,22,Delivered,,5
+FE1287,10-03-2026,16:40,Lunch,CUST011,Raj Malhotra,Delhi,REST013,Burger Barn,Fast Food,6,2231.4,0,0,2231.4,Debit Card,5.8,DP026,34,Delivered,,5
+FE1288,18-03-2026,11:17,Late Night,CUST164,Kiara Reddy,Mumbai,REST018,Sweet Tooth Bakery,Bakery,1,197.92,15,29.69,168.23,Cash on Delivery,11.6,DP010,55,Delivered,,5
+FE1289,31-03-2026,09:19,Dinner,CUST015,Kavya Iyer,Chennai,REST013,Burger Barn,Fast Food,6,1985.23,0,0,1985.23,UPI,10.7,DP004,46,Delivered,,4.1
+FE1290,30-11-2025,21:39,Evening Snacks,CUST023,Pooja Mehta,Delhi,REST014,Quick Bites,Fast Food,5,498.81,0,0,498.81,Credit Card,9.5,DP012,43,Delivered,,4.3
+FE1291,06-12-2025,07:10,Lunch,CUST004,Arjun Gupta,Mumbai,REST023,Cafe Mocha,Cafe,4,1037.46,0,0,1037.46,Cash on Delivery,10,DP017,29,Delivered,,4.8
+FE1292,11-05-2026,15:46,Dinner,CUST096,Karan Iyer,Chennai,REST005,Dosa Corner,South Indian,1,88.73,0,0,88.73,Wallet,5.8,DP034,36,Delivered,,3.6
+FE1293,28-03-2026,09:31,Dinner,CUST068,Kiara Kapoor,Chennai,REST023,Cafe Mocha,Cafe,4,1287.68,0,0,1287.68,Cash on Delivery,6.6,DP037,23,Delivered,,4.6
+FE1294,05-01-2026,10:57,Late Night,CUST062,Arjun Bose,Kolkata,REST006,Sagar Ratna,South Indian,5,2314.36,0,0,2314.36,UPI,3.5,DP033,22,Delivered,,4.1
+FE1295,02-01-2026,08:30,Lunch,CUST012,Ayaan Chopra,Chennai,REST001,Spice Villa,North Indian,3,967.18,15,145.08,822.1,Credit Card,2.9,DP003,26,Delivered,,4.7
+FE1296,28-12-2025,17:15,Dinner,CUST168,Aarav Chopra,Hyderabad,REST014,Quick Bites,Fast Food,4,1662.93,0,0,1662.93,UPI,10.5,DP037,,Cancelled,Long delivery time,
+FE1297,14-11-2025,12:14,Dinner,CUST129,Arjun Malhotra,Hyderabad,REST022,Chaat Street,Street Food,5,608.54,25,152.13,456.41,UPI,1.6,DP030,23,Delivered,,4.1
+FE1298,23-01-2026,09:35,Lunch,CUST040,Amit Mehta,Chennai,REST010,Wok This Way,Chinese,4,318.38,20,63.68,254.7,Credit Card,4.2,DP020,18,Delivered,,3.4
+FE1299,27-02-2026,18:37,Dinner,CUST160,Myra Rao,Delhi,REST008,Bella Italia,Italian,4,786.95,0,0,786.95,Credit Card,7.2,DP016,36,Delivered,,3.7
+FE1300,07-11-2025,14:34,Evening Snacks,CUST002,Aarav Mehta,Kolkata,REST014,Quick Bites,Fast Food,3,1380.03,0,0,1380.03,UPI,11.1,DP022,47,Delivered,,4.7
+FE1301,08-05-2026,16:06,Evening Snacks,CUST169,Pooja Gupta,Kolkata,REST013,Burger Barn,Fast Food,2,837.66,0,0,837.66,Credit Card,5.7,DP004,26,Delivered,,4.4
+FE1302,12-11-2025,14:57,Evening Snacks,CUST072,Amit Gupta,Bangalore,REST003,Punjab Grill House,North Indian,5,1571.89,15,235.78,1336.11,Debit Card,5.2,DP006,35,Delivered,,3.1
+FE1303,05-12-2025,19:04,Lunch,CUST025,Sunil Chopra,Pune,REST017,Green Leaf Cafe,Healthy,5,1526.09,0,0,1526.09,Credit Card,8.6,DP009,46,Delivered,,3.8
+FE1304,20-01-2026,19:44,Dinner,CUST075,Vihaan Joshi,Hyderabad,REST009,Noodle Bar,Chinese,6,1374.14,0,0,1374.14,Credit Card,4,DP005,26,Delivered,,4.9
+FE1305,28-11-2025,11:06,Dinner,CUST035,Yash Gupta,Delhi,REST019,Mughal Mahal,North Indian,2,611.58,0,0,611.58,Credit Card,5.6,DP035,33,Delivered,,4.1
+FE1306,18-01-2026,21:16,Dinner,CUST054,Reyansh Bose,Pune,REST015,KFC Junction,Fast Food,1,108.74,15,16.31,92.43,Cash on Delivery,8.8,DP045,33,Delivered,,3.4
+FE1307,23-01-2026,11:05,Evening Snacks,CUST011,Raj Malhotra,Delhi,REST007,Pizza Mania,Italian,6,1474.7,20,294.94,1179.76,UPI,5.4,DP004,26,Delivered,,5
+FE1308,29-05-2026,12:01,Late Night,CUST077,Priya Sharma,Kolkata,REST009,Noodle Bar,Chinese,4,1271.84,10,127.18,1144.66,Debit Card,7.2,DP007,38,Delivered,,5
+FE1309,02-12-2025,07:03,Evening Snacks,CUST027,Nikhil Kapoor,Mumbai,REST005,Dosa Corner,South Indian,2,256.74,20,51.35,205.39,Cash on Delivery,5.5,DP044,33,Delivered,,5
+FE1310,30-03-2026,15:58,Evening Snacks,CUST166,Priya Rao,Mumbai,REST003,Punjab Grill House,North Indian,1,109.1,10,10.91,98.19,UPI,3.1,DP042,35,Delivered,,4.3
+FE1311,27-05-2026,17:07,Late Night,CUST033,Kavya Joshi,Delhi,REST003,Punjab Grill House,North Indian,1,259.2,25,64.8,194.4,UPI,11.6,DP028,29,Delivered,,4.6
+FE1312,08-11-2025,19:43,Dinner,CUST102,Vihaan Singh,Bangalore,REST016,Healthy Bowl,Healthy,4,632.74,0,0,632.74,UPI,11.4,DP018,39,Delivered,,4.2
+FE1313,09-11-2025,14:41,Dinner,CUST115,Sunil Bose,Bangalore,REST005,Dosa Corner,South Indian,3,969.62,0,0,969.62,Cash on Delivery,7.2,DP004,47,Delivered,,3.5
+FE1314,06-12-2025,20:12,Dinner,CUST072,Amit Gupta,Pune,REST013,Burger Barn,Fast Food,6,1883.89,25,470.97,1412.92,Wallet,12.4,DP035,48,Delivered,,4.1
+FE1315,20-05-2026,18:30,Lunch,CUST005,Amit Patel,Delhi,REST013,Burger Barn,Fast Food,5,1537.69,10,153.77,1383.92,Wallet,7.4,DP021,31,Delivered,,4.8
+FE1316,07-11-2025,17:38,Dinner,CUST070,Rohan Mehta,Bangalore,REST006,Sagar Ratna,South Indian,2,220.08,25,55.02,165.06,UPI,9.9,DP004,33,Delivered,,2.5
+FE1317,31-01-2026,14:10,Late Night,CUST121,Myra Chopra,Delhi,REST017,Green Leaf Cafe,Healthy,1,218.93,25,54.73,164.2,UPI,3.9,DP004,31,Delivered,,4.2
+FE1318,24-05-2026,19:22,Breakfast,CUST057,Arjun Singh,Kolkata,REST019,Mughal Mahal,North Indian,2,304.17,0,0,304.17,Credit Card,4.5,DP045,30,Delivered,,4.8
+FE1319,30-04-2026,18:36,Dinner,CUST152,Vivaan Patel,Mumbai,REST001,Spice Villa,North Indian,5,779.19,0,0,779.19,Credit Card,3,DP032,20,Delayed,,1.9
+FE1320,30-12-2025,14:01,Lunch,CUST024,Ishaan Verma,Hyderabad,REST002,Tandoor Express,North Indian,5,1296.44,25,324.11,972.33,UPI,11.5,DP013,40,Delivered,,3.8
+FE1321,03-05-2026,12:58,Dinner,CUST034,Aditya Singh,Chennai,REST011,Dragon Wok,Chinese,3,266.89,25,66.72,200.17,Credit Card,7.7,DP010,31,Delivered,,4.3
+FE1322,02-02-2026,09:23,Lunch,CUST029,Tanvi Das,Bangalore,REST017,Green Leaf Cafe,Healthy,6,2409.01,20,481.8,1927.21,Credit Card,2,DP020,18,Delayed,,3.5
+FE1323,05-03-2026,17:11,Dinner,CUST034,Aditya Singh,Chennai,REST021,Paradise Biryani,Biryani,6,2372.49,0,0,2372.49,Credit Card,11.7,DP023,43,Delivered,,4.6
+FE1324,28-05-2026,12:24,Dinner,CUST070,Rohan Mehta,Mumbai,REST019,Mughal Mahal,North Indian,3,1189.48,20,237.9,951.58,Cash on Delivery,2.9,DP001,38,Delivered,,3.7
+FE1325,17-05-2026,08:11,Lunch,CUST147,Vivaan Verma,Mumbai,REST013,Burger Barn,Fast Food,5,1413.78,20,282.76,1131.02,Cash on Delivery,12.1,DP015,38,Delivered,,4.4
+FE1326,08-03-2026,11:21,Dinner,CUST018,Arjun Nair,Chennai,REST004,South Spice,South Indian,6,639.17,20,127.83,511.34,UPI,12.3,DP011,43,Delivered,,4.8
+FE1327,21-04-2026,17:28,Dinner,CUST023,Pooja Mehta,Bangalore,REST023,Cafe Mocha,Cafe,1,190.03,0,0,190.03,UPI,8.9,DP023,36,Delivered,,3.9
+FE1328,01-11-2025,08:24,Late Night,CUST028,Aditya Joshi,Pune,REST024,Brew & Bite,Cafe,4,1396.67,10,139.67,1257,UPI,11.1,DP032,51,Delivered,,4.8
+FE1329,05-02-2026,10:53,Dinner,CUST049,Ayaan Verma,Hyderabad,REST018,Sweet Tooth Bakery,Bakery,4,1590.58,10,159.06,1431.52,Cash on Delivery,8.8,DP011,31,Delivered,,4.2
+FE1330,15-01-2026,07:20,Dinner,CUST019,Kavya Rao,Mumbai,REST002,Tandoor Express,North Indian,3,331.04,0,0,331.04,Cash on Delivery,2.8,DP025,28,Delivered,,4
+FE1331,24-11-2025,17:38,Late Night,CUST020,Vihaan Patel,Mumbai,REST018,Sweet Tooth Bakery,Bakery,5,1768.75,0,0,1768.75,Debit Card,5.8,DP042,26,Delivered,,5
+FE1332,11-12-2025,08:06,Late Night,CUST021,Kiara Gupta,Mumbai,REST014,Quick Bites,Fast Food,3,660.32,20,132.06,528.26,Cash on Delivery,5.6,DP036,20,Delivered,,4.1
+FE1333,19-04-2026,16:19,Dinner,CUST110,Meera Verma,Kolkata,REST009,Noodle Bar,Chinese,2,211.52,0,0,211.52,Debit Card,7.5,DP032,37,Delivered,,4.1
+FE1334,01-11-2025,20:05,Breakfast,CUST014,Ishaan Sharma,Mumbai,REST012,Sushi Spot,Japanese,3,1316.75,0,0,1316.75,Credit Card,6.4,DP007,38,Delivered,,4.6
+FE1335,13-04-2026,16:05,Dinner,CUST053,Nikhil Rao,Mumbai,REST006,Sagar Ratna,South Indian,4,513.38,0,0,513.38,UPI,5.5,DP032,,Cancelled,Restaurant closed,
+FE1336,20-03-2026,19:11,Dinner,CUST024,Ishaan Verma,Chennai,REST021,Paradise Biryani,Biryani,3,781.9,10,78.19,703.71,Debit Card,6,DP017,,Cancelled,Payment failed,
+FE1337,08-01-2026,08:09,Lunch,CUST068,Kiara Kapoor,Bangalore,REST008,Bella Italia,Italian,6,2118.51,25,529.63,1588.88,Credit Card,8.6,DP035,,Cancelled,Payment failed,
+FE1338,22-03-2026,08:53,Lunch,CUST079,Rohan Iyer,Delhi,REST008,Bella Italia,Italian,4,1342.82,15,201.42,1141.4,Debit Card,7.1,DP031,28,Delivered,,3.9
+FE1339,16-01-2026,09:25,Dinner,CUST061,Aadhya Singh,Bangalore,REST016,Healthy Bowl,Healthy,6,582.49,15,87.37,495.12,Debit Card,11.3,DP037,,Cancelled,Restaurant closed,
+FE1340,13-05-2026,21:11,Late Night,CUST038,Sai Das,Bangalore,REST004,South Spice,South Indian,2,422.39,0,0,422.39,Debit Card,2.3,DP028,30,Delivered,,3.4
+FE1341,22-12-2025,11:53,Breakfast,CUST175,Aadhya Joshi,Pune,REST014,Quick Bites,Fast Food,5,983.57,10,98.36,885.21,UPI,9.3,DP005,,Cancelled,Customer changed mind,
+FE1342,22-03-2026,17:54,Dinner,CUST143,Diya Malhotra,Delhi,REST013,Burger Barn,Fast Food,3,1020.63,15,153.09,867.54,UPI,11,DP045,53,Delivered,,4.9
+FE1343,20-05-2026,20:07,Lunch,CUST079,Rohan Iyer,Delhi,REST017,Green Leaf Cafe,Healthy,4,536.19,0,0,536.19,UPI,7.7,DP007,78,Delayed,,2.6
+FE1344,28-01-2026,20:16,Dinner,CUST019,Kavya Rao,Chennai,REST018,Sweet Tooth Bakery,Bakery,4,1650.43,0,0,1650.43,Cash on Delivery,7.9,DP003,24,Delivered,,4.5
+FE1345,07-12-2025,19:02,Dinner,CUST071,Karan Sharma,Hyderabad,REST013,Burger Barn,Fast Food,4,1071.9,0,0,1071.9,UPI,1.4,DP031,16,Delivered,,5
+FE1346,26-01-2026,16:19,Evening Snacks,CUST096,Karan Iyer,Bangalore,REST001,Spice Villa,North Indian,3,1135.29,0,0,1135.29,Wallet,8.8,DP015,36,Delivered,,3.8
+FE1347,22-02-2026,17:17,Late Night,CUST077,Priya Sharma,Pune,REST024,Brew & Bite,Cafe,6,1831.82,25,457.95,1373.87,UPI,1.8,DP029,,Cancelled,Restaurant out of stock,
+FE1348,05-03-2026,23:55,Late Night,CUST105,Neha Singh,Delhi,REST024,Brew & Bite,Cafe,3,325.98,20,65.2,260.78,Cash on Delivery,2.7,DP020,28,Delivered,,3.8
+FE1349,05-12-2025,23:56,Lunch,CUST130,Sai Mehta,Chennai,REST013,Burger Barn,Fast Food,5,408.66,25,102.17,306.49,Debit Card,11,DP013,35,Delivered,,4.3
+FE1350,09-11-2025,21:03,Evening Snacks,CUST015,Kavya Iyer,Mumbai,REST008,Bella Italia,Italian,3,1161.13,15,174.17,986.96,UPI,5.1,DP030,14,Delivered,,4.7
+FE1351,02-12-2025,07:15,Breakfast,CUST102,Vihaan Singh,Pune,REST021,Paradise Biryani,Biryani,3,1027.24,15,154.09,873.15,Wallet,2.9,DP031,25,Delivered,,4.8
+FE1352,28-01-2026,12:53,Lunch,CUST142,Ananya Chopra,Chennai,REST012,Sushi Spot,Japanese,3,1083.66,0,0,1083.66,UPI,1.1,DP004,23,Delivered,,3.7
+FE1353,27-12-2025,14:43,Late Night,CUST147,Vivaan Verma,Hyderabad,REST007,Pizza Mania,Italian,2,460.32,10,46.03,414.29,Cash on Delivery,6.8,DP044,,Cancelled,Customer changed mind,
+FE1354,15-12-2025,07:14,Lunch,CUST034,Aditya Singh,Hyderabad,REST021,Paradise Biryani,Biryani,3,1316.15,10,131.62,1184.53,UPI,4.4,DP042,,Cancelled,Long delivery time,
+FE1355,26-02-2026,15:13,Dinner,CUST097,Ananya Malhotra,Hyderabad,REST012,Sushi Spot,Japanese,4,1002.34,15,150.35,851.99,Cash on Delivery,10.4,DP026,46,Delivered,,5
+FE1356,11-03-2026,18:35,Evening Snacks,CUST027,Nikhil Kapoor,Delhi,REST001,Spice Villa,North Indian,6,2404.5,10,240.45,2164.05,Cash on Delivery,4.3,DP007,32,Delivered,,4.4
+FE1357,10-01-2026,17:55,Dinner,CUST017,Saanvi Mehta,Hyderabad,REST011,Dragon Wok,Chinese,3,678.9,0,0,678.9,Credit Card,11.9,DP042,36,Delivered,,4.7
+FE1358,13-03-2026,14:57,Evening Snacks,CUST049,Ayaan Verma,Mumbai,REST005,Dosa Corner,South Indian,1,372.15,20,74.43,297.72,Credit Card,4.5,DP009,29,Delivered,,4.3
+FE1359,08-03-2026,16:16,Dinner,CUST007,Vivaan Sharma,Pune,REST021,Paradise Biryani,Biryani,4,1096.7,25,274.18,822.52,Debit Card,1.2,DP037,17,Delivered,,4.1
+FE1360,05-05-2026,14:43,Breakfast,CUST049,Ayaan Verma,Bangalore,REST011,Dragon Wok,Chinese,5,2261.34,0,0,2261.34,UPI,11.4,DP043,41,Delivered,,2.8
+FE1361,14-12-2025,12:18,Lunch,CUST130,Sai Mehta,Hyderabad,REST010,Wok This Way,Chinese,1,273.23,25,68.31,204.92,UPI,3.8,DP036,22,Delivered,,4.2
+FE1362,25-01-2026,09:14,Breakfast,CUST047,Amit Rao,Delhi,REST022,Chaat Street,Street Food,3,638.85,0,0,638.85,UPI,4.4,DP022,34,Delivered,,3.8
+FE1363,15-01-2026,21:54,Lunch,CUST067,Pooja Patel,Bangalore,REST019,Mughal Mahal,North Indian,1,262.87,15,39.43,223.44,Wallet,8.2,DP038,29,Delivered,,4.1
+FE1364,20-12-2025,23:07,Lunch,CUST019,Kavya Rao,Mumbai,REST016,Healthy Bowl,Healthy,6,1669.69,0,0,1669.69,Credit Card,5.6,DP010,28,Delivered,,5
+FE1365,13-02-2026,21:09,Lunch,CUST008,Aditya Nair,Kolkata,REST011,Dragon Wok,Chinese,3,1166.93,20,233.39,933.54,UPI,1.7,DP022,12,Delivered,,2.9
+FE1366,12-04-2026,08:00,Dinner,CUST046,Nikhil Singh,Kolkata,REST011,Dragon Wok,Chinese,4,777.7,25,194.43,583.27,Debit Card,9.9,DP037,83,Delayed,,2.5
+FE1367,07-04-2026,20:40,Breakfast,CUST023,Pooja Mehta,Chennai,REST005,Dosa Corner,South Indian,4,1111.52,0,0,1111.52,Debit Card,6.4,DP001,26,Delivered,,5
+FE1368,07-05-2026,18:00,Evening Snacks,CUST137,Riya Bose,Mumbai,REST007,Pizza Mania,Italian,3,922.67,20,184.53,738.14,Credit Card,8.7,DP041,43,Delivered,,4.1
+FE1369,27-04-2026,18:19,Breakfast,CUST035,Yash Gupta,Pune,REST008,Bella Italia,Italian,2,251.7,0,0,251.7,UPI,7.7,DP011,26,Delivered,,4.3
+FE1370,14-01-2026,21:46,Evening Snacks,CUST012,Ayaan Chopra,Hyderabad,REST010,Wok This Way,Chinese,5,1943.57,0,0,1943.57,Credit Card,5.9,DP044,33,Delivered,,4.7
+FE1371,31-01-2026,13:10,Dinner,CUST088,Vihaan Das,Hyderabad,REST016,Healthy Bowl,Healthy,4,317.33,0,0,317.33,Debit Card,9.3,DP009,40,Delivered,,3.4
+FE1372,10-03-2026,12:07,Evening Snacks,CUST006,Neha Malhotra,Mumbai,REST019,Mughal Mahal,North Indian,3,1412.21,0,0,1412.21,UPI,1.2,DP041,18,Delivered,,3.8
+FE1373,13-11-2025,08:42,Dinner,CUST137,Riya Bose,Mumbai,REST020,Biryani House,Biryani,1,469.66,10,46.97,422.69,UPI,1.4,DP008,19,Delivered,,4.9
+FE1374,02-12-2025,15:30,Evening Snacks,CUST114,Reyansh Reddy,Pune,REST013,Burger Barn,Fast Food,6,836.32,0,0,836.32,Debit Card,8.8,DP001,40,Delivered,,4.9
+FE1375,26-11-2025,23:17,Dinner,CUST108,Raj Verma,Bangalore,REST022,Chaat Street,Street Food,5,2106.57,20,421.31,1685.26,Cash on Delivery,5.7,DP007,,Cancelled,Address issue,
+FE1376,12-01-2026,10:50,Evening Snacks,CUST067,Pooja Patel,Kolkata,REST004,South Spice,South Indian,1,293.74,25,73.44,220.3,UPI,3.1,DP017,12,Delivered,,5
+FE1377,31-01-2026,20:18,Dinner,CUST007,Vivaan Sharma,Pune,REST007,Pizza Mania,Italian,2,203.85,10,20.39,183.46,UPI,11.5,DP045,41,Delivered,,3.3
+FE1378,01-11-2025,07:42,Lunch,CUST071,Karan Sharma,Chennai,REST008,Bella Italia,Italian,1,154.24,0,0,154.24,UPI,8.6,DP010,36,Delivered,,4.1
+FE1379,05-05-2026,10:57,Breakfast,CUST131,Priya Singh,Delhi,REST003,Punjab Grill House,North Indian,3,1095.05,0,0,1095.05,Credit Card,12.4,DP019,54,Delivered,,3.4
+FE1380,26-11-2025,12:55,Lunch,CUST119,Vihaan Malhotra,Delhi,REST002,Tandoor Express,North Indian,1,215.25,20,43.05,172.2,Wallet,8.7,DP028,51,Delivered,,3.9
+FE1381,14-05-2026,08:00,Breakfast,CUST030,Neha Nair,Bangalore,REST004,South Spice,South Indian,2,887.34,15,133.1,754.24,Credit Card,4.6,DP029,25,Delivered,,4.5
+FE1382,24-11-2025,18:52,Evening Snacks,CUST069,Pooja Chopra,Mumbai,REST024,Brew & Bite,Cafe,3,438.83,25,109.71,329.12,UPI,5.5,DP030,,Cancelled,Long delivery time,
+FE1383,03-03-2026,20:41,Late Night,CUST099,Raj Joshi,Mumbai,REST023,Cafe Mocha,Cafe,2,233.72,10,23.37,210.35,UPI,9.3,DP011,,Cancelled,Customer changed mind,
+FE1384,25-05-2026,21:11,Dinner,CUST152,Vivaan Patel,Hyderabad,REST016,Healthy Bowl,Healthy,5,1522.98,25,380.75,1142.23,Wallet,8,DP044,22,Delivered,,3.2
+FE1385,05-03-2026,10:56,Lunch,CUST034,Aditya Singh,Bangalore,REST016,Healthy Bowl,Healthy,4,998.43,20,199.69,798.74,Credit Card,3.9,DP021,,Cancelled,Customer changed mind,
+FE1386,16-05-2026,14:42,Lunch,CUST157,Meera Singh,Bangalore,REST017,Green Leaf Cafe,Healthy,3,1044.56,10,104.46,940.1,UPI,9,DP007,39,Delivered,,4.1
+FE1387,03-01-2026,22:22,Late Night,CUST008,Aditya Nair,Delhi,REST024,Brew & Bite,Cafe,6,2700.57,15,405.09,2295.48,Credit Card,2.5,DP036,17,Delivered,,3.4
+FE1388,14-04-2026,12:32,Dinner,CUST014,Ishaan Sharma,Bangalore,REST001,Spice Villa,North Indian,4,1528.82,0,0,1528.82,Credit Card,1.7,DP032,21,Delivered,,5
+FE1389,11-01-2026,08:32,Lunch,CUST062,Arjun Bose,Hyderabad,REST011,Dragon Wok,Chinese,2,763.39,0,0,763.39,UPI,5.5,DP016,44,Delivered,,5
+FE1390,25-05-2026,21:05,Late Night,CUST118,Reyansh Gupta,Delhi,REST015,KFC Junction,Fast Food,4,1141.36,0,0,1141.36,Wallet,12.3,DP042,33,Delivered,,5
+FE1391,14-02-2026,08:35,Dinner,CUST027,Nikhil Kapoor,Mumbai,REST013,Burger Barn,Fast Food,5,452.15,20,90.43,361.72,UPI,10.1,DP040,41,Delivered,,4.6
+FE1392,24-03-2026,13:41,Lunch,CUST058,Sunil Mehta,Kolkata,REST017,Green Leaf Cafe,Healthy,6,2216.31,0,0,2216.31,Credit Card,5.1,DP004,43,Delayed,,3.2
+FE1393,03-04-2026,22:45,Dinner,CUST144,Raj Bose,Bangalore,REST020,Biryani House,Biryani,6,1733.84,0,0,1733.84,Credit Card,2.1,DP043,12,Delivered,,3.6
+FE1394,30-01-2026,16:35,Evening Snacks,CUST001,Sneha Gupta,Pune,REST011,Dragon Wok,Chinese,5,1464.54,0,0,1464.54,Credit Card,1.3,DP011,,Cancelled,Payment failed,
+FE1395,05-01-2026,13:12,Evening Snacks,CUST105,Neha Singh,Kolkata,REST004,South Spice,South Indian,1,249.03,20,49.81,199.22,Cash on Delivery,10.4,DP013,38,Delivered,,4.6
+FE1396,13-05-2026,20:02,Lunch,CUST087,Riya Sharma,Delhi,REST004,South Spice,South Indian,6,2634.37,10,263.44,2370.93,Cash on Delivery,9.8,DP029,40,Delivered,,4.6
+FE1397,10-03-2026,11:31,Late Night,CUST169,Pooja Gupta,Hyderabad,REST019,Mughal Mahal,North Indian,1,384.16,25,96.04,288.12,UPI,7.3,DP028,12,Delivered,,5
+FE1398,11-03-2026,12:44,Lunch,CUST150,Neha Bose,Pune,REST016,Healthy Bowl,Healthy,5,917.45,20,183.49,733.96,UPI,2.3,DP025,28,Delivered,,3.8
+FE1399,22-01-2026,23:56,Late Night,CUST154,Aditya Patel,Delhi,REST020,Biryani House,Biryani,4,1401.56,0,0,1401.56,UPI,11.5,DP016,76,Delayed,,3.4
+FE1400,06-12-2025,20:38,Dinner,CUST116,Ayaan Bose,Hyderabad,REST005,Dosa Corner,South Indian,6,1886.95,20,377.39,1509.56,UPI,9,DP021,41,Delivered,,4.7
+FE1401,26-12-2025,13:13,Dinner,CUST142,Ananya Chopra,Pune,REST021,Paradise Biryani,Biryani,5,2038.62,0,0,2038.62,Debit Card,4.8,DP044,31,Delivered,,4.5
+FE1402,09-03-2026,17:45,Dinner,CUST167,Nikhil Patel,Mumbai,REST006,Sagar Ratna,South Indian,1,266.48,20,53.3,213.18,UPI,7.6,DP043,20,Delivered,,3.1
+FE1403,11-05-2026,16:56,Lunch,CUST107,Aarav Patel,Delhi,REST022,Chaat Street,Street Food,4,347.13,0,0,347.13,Cash on Delivery,1.1,DP010,17,Delivered,,4.6
+FE1404,22-12-2025,15:48,Dinner,CUST083,Arjun Das,Mumbai,REST002,Tandoor Express,North Indian,2,485.16,20,97.03,388.13,Cash on Delivery,2.5,DP004,19,Delivered,,4.3
+FE1405,12-05-2026,08:22,Lunch,CUST076,Myra Iyer,Bangalore,REST007,Pizza Mania,Italian,4,552.52,15,82.88,469.64,UPI,8.7,DP036,78,Delayed,,3
+FE1406,11-03-2026,16:44,Late Night,CUST100,Kiara Das,Bangalore,REST008,Bella Italia,Italian,6,730.45,0,0,730.45,UPI,5.3,DP044,23,Delivered,,4.6
+FE1407,04-11-2025,15:12,Dinner,CUST142,Ananya Chopra,Kolkata,REST002,Tandoor Express,North Indian,5,1731.95,0,0,1731.95,UPI,11.5,DP042,33,Delivered,,2.1
+FE1408,09-05-2026,13:49,Dinner,CUST079,Rohan Iyer,Hyderabad,REST018,Sweet Tooth Bakery,Bakery,6,985.58,0,0,985.58,UPI,2.9,DP044,23,Delivered,,4.8
+FE1409,08-05-2026,23:07,Dinner,CUST048,Tanvi Verma,Chennai,REST006,Sagar Ratna,South Indian,4,388.56,0,0,388.56,Credit Card,7.3,DP009,25,Delivered,,4.5
+FE1410,02-11-2025,17:29,Dinner,CUST150,Neha Bose,Delhi,REST009,Noodle Bar,Chinese,6,778.44,0,0,778.44,UPI,11.7,DP039,40,Delivered,,3.8
+FE1411,19-04-2026,16:31,Lunch,CUST161,Nikhil Mehta,Pune,REST020,Biryani House,Biryani,5,1702.54,15,255.38,1447.16,UPI,10,DP021,41,Delivered,,4
+FE1412,14-03-2026,09:50,Breakfast,CUST057,Arjun Singh,Chennai,REST006,Sagar Ratna,South Indian,5,777.93,0,0,777.93,UPI,7.1,DP006,33,Delivered,,3.7
+FE1413,19-04-2026,17:21,Lunch,CUST057,Arjun Singh,Delhi,REST007,Pizza Mania,Italian,3,612.29,10,61.23,551.06,Cash on Delivery,9.6,DP034,36,Delivered,,4.4
+FE1414,03-11-2025,10:42,Late Night,CUST144,Raj Bose,Bangalore,REST021,Paradise Biryani,Biryani,3,828.03,0,0,828.03,UPI,8.3,DP040,56,Delayed,,1.6
+FE1415,07-02-2026,15:34,Dinner,CUST098,Reyansh Nair,Mumbai,REST004,South Spice,South Indian,6,1088.48,15,163.27,925.21,Credit Card,6.8,DP024,44,Delivered,,3.3
+FE1416,05-03-2026,08:18,Lunch,CUST131,Priya Singh,Mumbai,REST015,KFC Junction,Fast Food,6,991.24,0,0,991.24,Debit Card,1.8,DP007,21,Delivered,,4.2
+FE1417,02-11-2025,09:13,Dinner,CUST138,Reyansh Kapoor,Kolkata,REST018,Sweet Tooth Bakery,Bakery,6,2675.95,25,668.99,2006.96,UPI,10.9,DP028,43,Delivered,,4
+FE1418,18-03-2026,20:41,Evening Snacks,CUST027,Nikhil Kapoor,Mumbai,REST007,Pizza Mania,Italian,1,371.31,0,0,371.31,Wallet,6.2,DP022,12,Delivered,,4.2
+FE1419,14-11-2025,12:50,Evening Snacks,CUST023,Pooja Mehta,Delhi,REST003,Punjab Grill House,North Indian,3,906.85,10,90.69,816.16,UPI,10.4,DP017,,Cancelled,Payment failed,
+FE1420,12-02-2026,20:20,Dinner,CUST116,Ayaan Bose,Delhi,REST021,Paradise Biryani,Biryani,1,298.34,15,44.75,253.59,Credit Card,7.1,DP042,,Cancelled,Restaurant closed,
+FE1421,30-03-2026,08:44,Dinner,CUST017,Saanvi Mehta,Delhi,REST024,Brew & Bite,Cafe,1,308.03,0,0,308.03,Debit Card,2,DP044,14,Delivered,,3.9
+FE1422,12-01-2026,21:24,Lunch,CUST021,Kiara Gupta,Pune,REST003,Punjab Grill House,North Indian,4,1358.21,0,0,1358.21,Debit Card,2.6,DP015,33,Delivered,,3.7
+FE1423,15-01-2026,11:19,Lunch,CUST101,Priya Chopra,Chennai,REST018,Sweet Tooth Bakery,Bakery,6,2340.86,0,0,2340.86,UPI,11.9,DP036,,Cancelled,Address issue,
+FE1424,02-11-2025,19:34,Evening Snacks,CUST032,Vivaan Singh,Mumbai,REST002,Tandoor Express,North Indian,5,566.95,0,0,566.95,UPI,9.6,DP023,39,Delivered,,4
+FE1425,12-03-2026,11:10,Evening Snacks,CUST105,Neha Singh,Bangalore,REST021,Paradise Biryani,Biryani,2,404.05,0,0,404.05,Credit Card,3.8,DP008,16,Delivered,,4.2
+FE1426,14-11-2025,21:41,Dinner,CUST083,Arjun Das,Kolkata,REST019,Mughal Mahal,North Indian,5,536.01,0,0,536.01,Debit Card,1.6,DP007,16,Delivered,,4.7
+FE1427,24-01-2026,18:08,Late Night,CUST147,Vivaan Verma,Bangalore,REST016,Healthy Bowl,Healthy,6,2225.59,0,0,2225.59,UPI,4.1,DP005,30,Delivered,,4.7
+FE1428,24-02-2026,17:39,Lunch,CUST082,Tanvi Nair,Mumbai,REST016,Healthy Bowl,Healthy,6,1525.57,0,0,1525.57,UPI,2.6,DP037,26,Delivered,,4.3
+FE1429,14-12-2025,07:20,Evening Snacks,CUST081,Yash Joshi,Delhi,REST014,Quick Bites,Fast Food,2,418.76,25,104.69,314.07,UPI,8.3,DP018,48,Delivered,,4.3
+FE1430,23-04-2026,17:56,Breakfast,CUST093,Tanvi Patel,Chennai,REST005,Dosa Corner,South Indian,4,1236.37,15,185.46,1050.91,Cash on Delivery,9.9,DP032,40,Delivered,,4
+FE1431,15-04-2026,09:53,Lunch,CUST028,Aditya Joshi,Bangalore,REST006,Sagar Ratna,South Indian,3,523.9,0,0,523.9,UPI,3.1,DP041,34,Delivered,,4.1
+FE1432,10-03-2026,07:52,Evening Snacks,CUST020,Vihaan Patel,Pune,REST001,Spice Villa,North Indian,5,1808.66,15,271.3,1537.36,UPI,7.7,DP003,35,Delayed,,2.6
+FE1433,18-05-2026,11:23,Dinner,CUST121,Myra Chopra,Kolkata,REST021,Paradise Biryani,Biryani,4,897.5,0,0,897.5,Wallet,7.7,DP019,38,Delivered,,4.2
+FE1434,11-03-2026,09:25,Lunch,CUST119,Vihaan Malhotra,Delhi,REST017,Green Leaf Cafe,Healthy,3,813.08,20,162.62,650.46,UPI,3.6,DP040,26,Delivered,,3.5
+FE1435,06-12-2025,21:10,Lunch,CUST043,Karan Singh,Hyderabad,REST017,Green Leaf Cafe,Healthy,2,870.46,20,174.09,696.37,Cash on Delivery,8.5,DP010,25,Delivered,,5
+FE1436,11-11-2025,14:48,Lunch,CUST124,Vivaan Kapoor,Delhi,REST012,Sushi Spot,Japanese,4,653.51,0,0,653.51,Wallet,5.1,DP003,,Cancelled,Restaurant closed,
+FE1437,08-02-2026,22:58,Breakfast,CUST133,Priya Gupta,Pune,REST012,Sushi Spot,Japanese,4,336.18,20,67.24,268.94,UPI,8.4,DP007,21,Delivered,,3.6
+FE1438,10-01-2026,15:37,Late Night,CUST007,Vivaan Sharma,Mumbai,REST021,Paradise Biryani,Biryani,5,1613,15,241.95,1371.05,Credit Card,8.4,DP024,52,Delivered,,5
+FE1439,13-03-2026,15:24,Lunch,CUST168,Aarav Chopra,Mumbai,REST003,Punjab Grill House,North Indian,2,662.09,10,66.21,595.88,Cash on Delivery,10.4,DP023,41,Delivered,,2.7
+FE1440,02-11-2025,23:56,Lunch,CUST124,Vivaan Kapoor,Mumbai,REST020,Biryani House,Biryani,2,528.41,0,0,528.41,Credit Card,1.7,DP042,31,Delivered,,3.9
+FE1441,18-12-2025,12:23,Lunch,CUST055,Kiara Chopra,Kolkata,REST005,Dosa Corner,South Indian,5,2518.36,10,251.84,2266.52,Wallet,8.5,DP027,72,Delayed,,2.9
+FE1442,03-03-2026,13:37,Late Night,CUST173,Meera Patel,Pune,REST016,Healthy Bowl,Healthy,2,931.61,0,0,931.61,Credit Card,1.1,DP003,14,Delivered,,3.1
+FE1443,12-12-2025,11:40,Dinner,CUST147,Vivaan Verma,Mumbai,REST019,Mughal Mahal,North Indian,5,578.16,0,0,578.16,Wallet,2.5,DP011,,Cancelled,Long delivery time,
+FE1444,03-04-2026,07:56,Late Night,CUST133,Priya Gupta,Kolkata,REST013,Burger Barn,Fast Food,6,2830.33,25,707.58,2122.75,Credit Card,11.9,DP014,64,Delayed,,3.5
+FE1445,27-12-2025,20:38,Lunch,CUST124,Vivaan Kapoor,Pune,REST006,Sagar Ratna,South Indian,2,852.91,15,127.94,724.97,Credit Card,2.9,DP043,14,Delivered,,4.8
+FE1446,05-05-2026,17:59,Lunch,CUST068,Kiara Kapoor,Hyderabad,REST006,Sagar Ratna,South Indian,4,1595.81,0,0,1595.81,Credit Card,3.5,DP025,23,Delivered,,5
+FE1447,22-12-2025,23:55,Lunch,CUST028,Aditya Joshi,Mumbai,REST001,Spice Villa,North Indian,5,2081.02,0,0,2081.02,Wallet,2.5,DP007,26,Delivered,,3.3
+FE1448,03-04-2026,08:56,Dinner,CUST122,Yash Verma,Delhi,REST020,Biryani House,Biryani,5,1855.11,0,0,1855.11,Debit Card,1.9,DP043,18,Delivered,,3.6
+FE1449,01-11-2025,20:33,Dinner,CUST155,Amit Singh,Bangalore,REST018,Sweet Tooth Bakery,Bakery,4,1237.32,25,309.33,927.99,UPI,9,DP028,,Cancelled,Restaurant out of stock,
+FE1450,29-01-2026,10:27,Breakfast,CUST124,Vivaan Kapoor,Kolkata,REST013,Burger Barn,Fast Food,2,416.16,0,0,416.16,Cash on Delivery,3.5,DP006,12,Delivered,,5
+FE1451,13-02-2026,15:12,Late Night,CUST154,Aditya Patel,Kolkata,REST018,Sweet Tooth Bakery,Bakery,1,486.17,0,0,486.17,Credit Card,0.9,DP034,12,Delivered,,3.7
+FE1452,05-02-2026,13:44,Lunch,CUST007,Vivaan Sharma,Hyderabad,REST001,Spice Villa,North Indian,3,819.24,15,122.89,696.35,Debit Card,2.6,DP042,27,Delivered,,4.2
+FE1453,18-03-2026,20:36,Breakfast,CUST065,Arjun Iyer,Delhi,REST009,Noodle Bar,Chinese,3,1073.15,10,107.31,965.84,UPI,8.8,DP014,29,Delivered,,3.9
+FE1454,04-03-2026,12:23,Dinner,CUST142,Ananya Chopra,Kolkata,REST018,Sweet Tooth Bakery,Bakery,5,1808.18,0,0,1808.18,Credit Card,12.4,DP037,51,Delivered,,5
+FE1455,06-12-2025,10:47,Lunch,CUST102,Vihaan Singh,Delhi,REST024,Brew & Bite,Cafe,2,685.76,0,0,685.76,Cash on Delivery,11.9,DP007,67,Delayed,,2.3
+FE1456,28-04-2026,08:10,Evening Snacks,CUST141,Aarav Kapoor,Chennai,REST020,Biryani House,Biryani,4,1299.43,10,129.94,1169.49,Cash on Delivery,1.9,DP010,16,Delivered,,1.8
+FE1457,23-11-2025,09:16,Lunch,CUST154,Aditya Patel,Hyderabad,REST014,Quick Bites,Fast Food,2,447.62,10,44.76,402.86,UPI,1.2,DP025,15,Delivered,,4.5
+FE1458,14-03-2026,16:45,Late Night,CUST158,Neha Verma,Mumbai,REST021,Paradise Biryani,Biryani,5,642.17,10,64.22,577.95,Credit Card,10.4,DP041,,Cancelled,Payment failed,
+FE1459,18-04-2026,23:18,Dinner,CUST003,Ayaan Singh,Delhi,REST007,Pizza Mania,Italian,2,216.04,0,0,216.04,Cash on Delivery,6.8,DP045,29,Delivered,,3
+FE1460,22-04-2026,08:23,Breakfast,CUST158,Neha Verma,Bangalore,REST006,Sagar Ratna,South Indian,2,664.1,25,166.03,498.07,UPI,2.6,DP018,24,Delivered,,3.7
+FE1461,21-04-2026,19:25,Lunch,CUST091,Ayaan Patel,Kolkata,REST012,Sushi Spot,Japanese,5,916.46,0,0,916.46,UPI,9.4,DP005,38,Delivered,,4.7
+FE1462,05-05-2026,18:22,Dinner,CUST141,Aarav Kapoor,Pune,REST010,Wok This Way,Chinese,3,609.89,15,91.48,518.41,Credit Card,3.1,DP026,13,Delivered,,5
+FE1463,15-12-2025,20:32,Lunch,CUST002,Aarav Mehta,Chennai,REST009,Noodle Bar,Chinese,1,303.4,0,0,303.4,UPI,4.2,DP008,,Cancelled,Address issue,
+FE1464,04-01-2026,21:24,Late Night,CUST138,Reyansh Kapoor,Chennai,REST019,Mughal Mahal,North Indian,5,1811.56,20,362.31,1449.25,Cash on Delivery,9.7,DP030,50,Delivered,,3
+FE1465,08-11-2025,22:07,Dinner,CUST118,Reyansh Gupta,Mumbai,REST019,Mughal Mahal,North Indian,3,325.95,20,65.19,260.76,Debit Card,10,DP015,43,Delivered,,3.8
+FE1466,24-05-2026,17:26,Breakfast,CUST180,Nikhil Gupta,Kolkata,REST008,Bella Italia,Italian,3,1046.72,0,0,1046.72,UPI,9,DP017,24,Delivered,,4.8
+FE1467,11-02-2026,17:04,Lunch,CUST019,Kavya Rao,Pune,REST003,Punjab Grill House,North Indian,5,846.98,20,169.4,677.58,Credit Card,4.9,DP037,18,Delayed,,3.4
+FE1468,08-05-2026,13:15,Dinner,CUST049,Ayaan Verma,Chennai,REST016,Healthy Bowl,Healthy,6,1399.6,25,349.9,1049.7,Debit Card,3.2,DP013,24,Delivered,,4.4
+FE1469,31-01-2026,11:49,Dinner,CUST035,Yash Gupta,Pune,REST020,Biryani House,Biryani,1,164.7,10,16.47,148.23,UPI,8.7,DP043,40,Delivered,,3.8
+FE1470,15-05-2026,08:54,Late Night,CUST158,Neha Verma,Delhi,REST001,Spice Villa,North Indian,4,1132.13,25,283.03,849.1,Cash on Delivery,6.6,DP037,22,Delivered,,4.5
+FE1471,17-12-2025,23:17,Dinner,CUST071,Karan Sharma,Kolkata,REST016,Healthy Bowl,Healthy,4,849.25,25,212.31,636.94,UPI,2.3,DP034,34,Delivered,,4.7
+FE1472,19-03-2026,08:32,Breakfast,CUST091,Ayaan Patel,Bangalore,REST016,Healthy Bowl,Healthy,3,964.53,0,0,964.53,Cash on Delivery,9.9,DP030,46,Delivered,,3.1
+FE1473,26-02-2026,17:44,Dinner,CUST165,Amit Joshi,Pune,REST017,Green Leaf Cafe,Healthy,1,91.99,0,0,91.99,Credit Card,5.2,DP007,39,Delayed,,2.7
+FE1474,07-01-2026,14:17,Dinner,CUST048,Tanvi Verma,Mumbai,REST018,Sweet Tooth Bakery,Bakery,4,1473.34,0,0,1473.34,Debit Card,3,DP028,20,Delivered,,4.4
+FE1475,12-05-2026,18:23,Evening Snacks,CUST108,Raj Verma,Bangalore,REST023,Cafe Mocha,Cafe,4,874.42,0,0,874.42,UPI,7.5,DP037,,Cancelled,Restaurant closed,
+FE1476,09-01-2026,14:35,Dinner,CUST026,Karan Gupta,Hyderabad,REST024,Brew & Bite,Cafe,4,966.27,10,96.63,869.64,UPI,10.2,DP010,32,Delivered,,5
+FE1477,16-02-2026,22:08,Breakfast,CUST003,Ayaan Singh,Kolkata,REST006,Sagar Ratna,South Indian,6,2092.06,0,0,2092.06,Debit Card,4.5,DP032,28,Delivered,,3
+FE1478,26-03-2026,08:25,Lunch,CUST065,Arjun Iyer,Delhi,REST018,Sweet Tooth Bakery,Bakery,1,374.69,10,37.47,337.22,Debit Card,3.3,DP017,26,Delivered,,3.8
+FE1479,24-02-2026,17:16,Dinner,CUST162,Reyansh Rao,Mumbai,REST004,South Spice,South Indian,3,811.12,0,0,811.12,UPI,11.7,DP017,56,Delivered,,3.4
+FE1480,02-12-2025,18:55,Evening Snacks,CUST006,Neha Malhotra,Mumbai,REST014,Quick Bites,Fast Food,6,2058.22,15,308.73,1749.49,Wallet,7.5,DP042,43,Delivered,,5
+FE1481,30-01-2026,17:43,Evening Snacks,CUST036,Kiara Mehta,Mumbai,REST010,Wok This Way,Chinese,5,1825.78,10,182.58,1643.2,Cash on Delivery,6,DP006,41,Delivered,,3.5
+FE1482,27-02-2026,11:55,Late Night,CUST158,Neha Verma,Bangalore,REST010,Wok This Way,Chinese,2,914.19,15,137.13,777.06,UPI,4.7,DP041,19,Delivered,,4
+FE1483,19-11-2025,09:10,Dinner,CUST147,Vivaan Verma,Pune,REST013,Burger Barn,Fast Food,3,544.13,15,81.62,462.51,Credit Card,8.4,DP018,28,Delivered,,3.2
+FE1484,09-01-2026,21:49,Dinner,CUST166,Priya Rao,Delhi,REST013,Burger Barn,Fast Food,3,1149.55,0,0,1149.55,UPI,6.1,DP011,25,Delivered,,4.3
+FE1485,06-05-2026,14:42,Breakfast,CUST006,Neha Malhotra,Hyderabad,REST005,Dosa Corner,South Indian,3,1445.26,10,144.53,1300.73,UPI,3.3,DP026,33,Delayed,,1.6
+FE1486,07-11-2025,19:33,Lunch,CUST141,Aarav Kapoor,Delhi,REST002,Tandoor Express,North Indian,1,120.36,10,12.04,108.32,Credit Card,2.6,DP042,33,Delivered,,5
+FE1487,03-01-2026,16:28,Late Night,CUST080,Rohan Gupta,Mumbai,REST008,Bella Italia,Italian,6,736.57,0,0,736.57,UPI,10.6,DP002,51,Delivered,,4.9
+FE1488,23-01-2026,22:29,Lunch,CUST008,Aditya Nair,Delhi,REST012,Sushi Spot,Japanese,5,1116.26,15,167.44,948.82,Credit Card,2.4,DP045,19,Delivered,,4.4
+FE1489,02-04-2026,21:40,Dinner,CUST046,Nikhil Singh,Pune,REST019,Mughal Mahal,North Indian,6,2796.73,20,559.35,2237.38,Credit Card,5.9,DP041,30,Delivered,,4
+FE1490,28-01-2026,22:34,Late Night,CUST137,Riya Bose,Bangalore,REST010,Wok This Way,Chinese,2,244.19,0,0,244.19,UPI,5.1,DP017,24,Delivered,,4.5
+FE1491,01-11-2025,23:52,Lunch,CUST058,Sunil Mehta,Kolkata,REST001,Spice Villa,North Indian,2,468.33,10,46.83,421.5,UPI,7.1,DP045,25,Delivered,,4.1
+FE1492,03-11-2025,20:51,Evening Snacks,CUST072,Amit Gupta,Kolkata,REST010,Wok This Way,Chinese,3,1030.82,0,0,1030.82,UPI,0.9,DP024,30,Delivered,,3.9
+FE1493,20-02-2026,19:15,Dinner,CUST105,Neha Singh,Hyderabad,REST018,Sweet Tooth Bakery,Bakery,2,976.6,0,0,976.6,Debit Card,5.4,DP025,34,Delivered,,3.5
+FE1494,17-02-2026,14:33,Dinner,CUST068,Kiara Kapoor,Mumbai,REST003,Punjab Grill House,North Indian,5,2335.64,25,583.91,1751.73,Debit Card,4.1,DP035,19,Delivered,,3.6
+FE1495,19-12-2025,09:11,Evening Snacks,CUST069,Pooja Chopra,Mumbai,REST014,Quick Bites,Fast Food,2,384.93,0,0,384.93,Debit Card,6.1,DP029,43,Delivered,,4.9
+FE1496,06-03-2026,13:20,Dinner,CUST180,Nikhil Gupta,Kolkata,REST020,Biryani House,Biryani,1,128.72,0,0,128.72,Cash on Delivery,7.1,DP012,21,Delivered,,4.3
+FE1497,03-12-2025,21:46,Dinner,CUST040,Amit Mehta,Pune,REST009,Noodle Bar,Chinese,1,166.38,25,41.59,124.79,Credit Card,1,DP014,25,Delayed,,2.1
+FE1498,27-02-2026,08:21,Dinner,CUST128,Reyansh Chopra,Hyderabad,REST012,Sushi Spot,Japanese,1,126.65,15,19,107.65,UPI,9.9,DP005,34,Delivered,,4.4
+FE1499,20-12-2025,15:52,Evening Snacks,CUST121,Myra Chopra,Pune,REST006,Sagar Ratna,South Indian,4,291.98,10,29.2,262.78,Debit Card,9.8,DP016,45,Delivered,,3.8
+FE1500,08-05-2026,08:12,Dinner,CUST114,Reyansh Reddy,Bangalore,REST008,Bella Italia,Italian,4,516.33,10,51.63,464.7,Wallet,12.3,DP031,59,Delivered,,3.8
+FE1501,22-01-2026,12:40,Breakfast,CUST175,Aadhya Joshi,Bangalore,REST010,Wok This Way,Chinese,6,665.32,0,0,665.32,UPI,7.2,DP008,39,Delivered,,4.2
+FE1502,16-01-2026,13:23,Lunch,CUST124,Vivaan Kapoor,Kolkata,REST021,Paradise Biryani,Biryani,1,373.48,10,37.35,336.13,Cash on Delivery,2.1,DP041,14,Delivered,,3.3
+FE1503,13-12-2025,15:37,Lunch,CUST015,Kavya Iyer,Mumbai,REST001,Spice Villa,North Indian,1,314.62,15,47.19,267.43,UPI,0.9,DP003,23,Delivered,,4.8
+FE1504,26-04-2026,11:23,Dinner,CUST177,Tanvi Joshi,Chennai,REST016,Healthy Bowl,Healthy,1,178.66,0,0,178.66,UPI,1.9,DP040,22,Delivered,,3.4
+FE1505,16-11-2025,18:41,Dinner,CUST161,Nikhil Mehta,Bangalore,REST002,Tandoor Express,North Indian,2,890.77,0,0,890.77,UPI,2.1,DP032,13,Delivered,,4.5
+FE1506,21-05-2026,18:51,Late Night,CUST082,Tanvi Nair,Delhi,REST018,Sweet Tooth Bakery,Bakery,4,575.68,0,0,575.68,Wallet,5.2,DP009,32,Delivered,,4.3
+FE1507,30-04-2026,21:35,Dinner,CUST011,Raj Malhotra,Kolkata,REST016,Healthy Bowl,Healthy,3,1155.41,15,173.31,982.1,UPI,3,DP012,12,Delivered,,4.3
+FE1508,07-05-2026,21:17,Dinner,CUST049,Ayaan Verma,Mumbai,REST011,Dragon Wok,Chinese,5,1568.41,25,392.1,1176.31,Debit Card,7,DP029,,Cancelled,Long delivery time,
+FE1509,02-02-2026,21:00,Dinner,CUST068,Kiara Kapoor,Chennai,REST018,Sweet Tooth Bakery,Bakery,6,1935.59,15,290.34,1645.25,Credit Card,3,DP002,13,Delivered,,4.5
+FE1510,01-01-2026,17:46,Dinner,CUST094,Kavya Reddy,Mumbai,REST020,Biryani House,Biryani,1,494.92,15,74.24,420.68,UPI,10.4,DP013,41,Delivered,,5
+FE1511,16-05-2026,11:39,Breakfast,CUST175,Aadhya Joshi,Mumbai,REST016,Healthy Bowl,Healthy,3,708.48,15,106.27,602.21,UPI,4.6,DP007,24,Delivered,,4.5
+FE1512,12-11-2025,11:11,Lunch,CUST169,Pooja Gupta,Mumbai,REST003,Punjab Grill House,North Indian,1,154.24,15,23.14,131.1,Credit Card,3,DP003,12,Delivered,,4.6
+FE1513,18-04-2026,22:33,Lunch,CUST165,Amit Joshi,Bangalore,REST013,Burger Barn,Fast Food,5,2274.28,15,341.14,1933.14,UPI,1.4,DP015,19,Delivered,,4.5
+FE1514,24-12-2025,22:59,Evening Snacks,CUST019,Kavya Rao,Bangalore,REST001,Spice Villa,North Indian,1,357.41,20,71.48,285.93,Credit Card,1.5,DP036,27,Delivered,,4.9
+FE1515,23-05-2026,08:52,Evening Snacks,CUST107,Aarav Patel,Bangalore,REST012,Sushi Spot,Japanese,5,1092.54,0,0,1092.54,Cash on Delivery,9.4,DP020,42,Delivered,,5
+FE1516,25-11-2025,10:46,Lunch,CUST056,Arjun Mehta,Hyderabad,REST017,Green Leaf Cafe,Healthy,2,671.71,0,0,671.71,UPI,3.1,DP043,26,Delivered,,3.6
+FE1517,16-12-2025,20:47,Late Night,CUST146,Diya Nair,Bangalore,REST021,Paradise Biryani,Biryani,1,418.43,20,83.69,334.74,UPI,8.7,DP045,15,Delivered,,4.4
+FE1518,13-12-2025,12:35,Breakfast,CUST110,Meera Verma,Pune,REST004,South Spice,South Indian,4,1264.13,10,126.41,1137.72,Credit Card,2.7,DP039,37,Delivered,,4.9
+FE1519,21-03-2026,17:54,Breakfast,CUST091,Ayaan Patel,Delhi,REST011,Dragon Wok,Chinese,3,965.25,0,0,965.25,Debit Card,5.8,DP021,,Cancelled,Address issue,
+FE1520,25-12-2025,19:49,Dinner,CUST018,Arjun Nair,Chennai,REST018,Sweet Tooth Bakery,Bakery,5,991.2,0,0,991.2,UPI,6.1,DP026,31,Delivered,,3.3
